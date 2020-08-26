@@ -2069,13 +2069,17 @@ a {
 }
 
       .posttitlewithoutimg {
-        color: #e9ecef;
+        color: #212529;
       }
     
       .sitename {
-        color: #fd7e14;
+        color: #f76707;
       }
     
+        .posttitle {
+          color: #212529;
+        }
+      
         .mobiledescribtion{
           color: white;
         }
