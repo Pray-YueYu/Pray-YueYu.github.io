@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Pray-YueYu.github.io</id>
     <title>月雩の窝</title>
-    <updated>2020-08-26T18:26:34.586Z</updated>
+    <updated>2020-08-26T18:29:05.077Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Pray-YueYu.github.io"/>
     <link rel="self" href="https://Pray-YueYu.github.io/atom.xml"/>
@@ -427,7 +427,8 @@ int main()
 <p>工作：<strong>敲代码</strong>+<strong>学习文化课内容</strong></p>
 <p>获奖情况：<strong><s>就我还能获奖？！</s></strong></p>
 <p>会的语言：<strong>中文</strong>、<strong>Engish</strong>、<strong>C++</strong>、<strong>Python3</strong>等</p>
-<p>关于博客：开这个博客主要是为了记录我的诗，但其它的东西也会不定期更新(例如题解之类)</p>
+<h2 id="关于博客">关于博客：</h2>
+<p>reason:开这个博客主要是为了记录我写的诗，但其它的东西也会不定期更新(例如题解之类)</p>
 <h1 id="愿有缘人三羊开泰有情人终成眷属">愿，有缘人三羊开泰，有情人终成眷属！</h1>
 <figure data-type="image" tabindex="1"><img src="https://Pray-YueYu.github.io/post-images/1598466334843.jpg" alt="" loading="lazy"></figure>
 ]]></content>
