@@ -2068,6 +2068,10 @@ a {
   }
 }
 
+      .posttitlewithoutimg {
+        color: #e9ecef;
+      }
+    
       .sitename {
         color: #fd7e14;
       }
