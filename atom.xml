@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Pray-YueYu.github.io</id>
     <title>月雩の窝</title>
-    <updated>2020-08-26T18:29:05.077Z</updated>
+    <updated>2020-08-26T23:42:54.299Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Pray-YueYu.github.io"/>
     <link rel="self" href="https://Pray-YueYu.github.io/atom.xml"/>
@@ -101,7 +101,7 @@ End.
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[洛谷：P2713「罗马游戏」]]></title>
+        <title type="html"><![CDATA[洛谷 P2713:「罗马游戏」]]></title>
         <id>https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/</id>
         <link href="https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/">
         </link>
@@ -221,6 +221,27 @@ int main()
 <h3 id="题外左偏树有什么用">题外：<s>左偏树有什么用</s></h3>
 <h4 id="还有就是晚上肝题是真的爽">还有就是，<s>晚上肝题是真的爽</s></h4>
 <h4 id="by月雩薇嫭-202085-016"><em><strong>by：月雩·薇嫭</strong></em> ,2020.8.5  0:16</h4>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些话---关于我与博客]]></title>
+        <id>https://Pray-YueYu.github.io/post/about/</id>
+        <link href="https://Pray-YueYu.github.io/post/about/">
+        </link>
+        <updated>2020-08-26T17:09:48.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="很高兴你能在茫茫人海中遇见你">很高兴你能在茫茫人海中遇见你</h1>
+<h2 id="介绍">介绍：</h2>
+<p>姓名：qhy</p>
+<p>年龄：未出生</p>
+<p>网名：(字)月雩；(号)薇嫮(同'嫭')</p>
+<p>身份：<strong>蒟蒻一枚</strong>，准高一学生，就读于西南大学附属中学，是其<strong>信息竞赛的一员</strong></p>
+<p>工作：<strong>敲代码</strong>+<strong>学习文化课内容</strong></p>
+<p>获奖情况：<strong><s>就我还能获奖？！</s></strong></p>
+<p>会的语言：<strong>中文</strong>、<strong>Engish</strong>、<strong>C++</strong>、<strong>Python3</strong>等</p>
+<h2 id="关于博客">关于博客：</h2>
+<p>reason:开这个博客主要是为了记录我写的诗，但其它的东西也会不定期更新(例如题解之类)</p>
+<h1 id="愿有缘人三羊开泰有情人终成眷属">愿，有缘人三羊开泰，有情人终成眷属！</h1>
+<figure data-type="image" tabindex="1"><img src="https://Pray-YueYu.github.io/post-images/1598466334843.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
     <entry>
@@ -410,27 +431,6 @@ int main()
 杨花拂面菊花香，风华正茂却沧桑。<br>
 (好菜<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>q</mi><mi>a</mi><mi>q</mi></mrow><annotation encoding="application/x-tex">qaq</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span><span class="mord mathdefault">a</span><span class="mord mathdefault" style="margin-right:0.03588em;">q</span></span></span></span>)<br>
 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>t</mi><mi>i</mi><mi>m</mi><mi>e</mi><mo>:</mo><mn>2017</mn></mrow><annotation encoding="application/x-tex">time: 2017</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">t</span><span class="mord mathdefault">i</span><span class="mord mathdefault">m</span><span class="mord mathdefault">e</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">:</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">2</span><span class="mord">0</span><span class="mord">1</span><span class="mord">7</span></span></span></span>年</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[一些话---关于我与博客]]></title>
-        <id>https://Pray-YueYu.github.io/post/about/</id>
-        <link href="https://Pray-YueYu.github.io/post/about/">
-        </link>
-        <updated>2019-01-25T11:09:48.000Z</updated>
-        <content type="html"><![CDATA[<h1 id="很高兴你能在茫茫人海中遇见你">很高兴你能在茫茫人海中遇见你</h1>
-<h2 id="介绍">介绍：</h2>
-<p>姓名：qhy</p>
-<p>年龄：未出生</p>
-<p>网名：(字)月雩；(号)薇嫮(同'嫭')</p>
-<p>身份：<strong>蒟蒻一枚</strong>，准高一学生，就读于西南大学附属中学，是其<strong>信息竞赛的一员</strong></p>
-<p>工作：<strong>敲代码</strong>+<strong>学习文化课内容</strong></p>
-<p>获奖情况：<strong><s>就我还能获奖？！</s></strong></p>
-<p>会的语言：<strong>中文</strong>、<strong>Engish</strong>、<strong>C++</strong>、<strong>Python3</strong>等</p>
-<h2 id="关于博客">关于博客：</h2>
-<p>reason:开这个博客主要是为了记录我写的诗，但其它的东西也会不定期更新(例如题解之类)</p>
-<h1 id="愿有缘人三羊开泰有情人终成眷属">愿，有缘人三羊开泰，有情人终成眷属！</h1>
-<figure data-type="image" tabindex="1"><img src="https://Pray-YueYu.github.io/post-images/1598466334843.jpg" alt="" loading="lazy"></figure>
 ]]></content>
     </entry>
 </feed>
