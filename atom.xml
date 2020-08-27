@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Pray-YueYu.github.io</id>
     <title>月雩の窝</title>
-    <updated>2020-08-27T06:03:02.521Z</updated>
+    <updated>2020-08-27T06:18:11.247Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Pray-YueYu.github.io"/>
     <link rel="self" href="https://Pray-YueYu.github.io/atom.xml"/>
@@ -10,6 +10,19 @@
     <logo>https://Pray-YueYu.github.io/images/avatar.png</logo>
     <icon>https://Pray-YueYu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 月雩の窝</rights>
+    <entry>
+        <title type="html"><![CDATA[阴柳引]]></title>
+        <id>https://Pray-YueYu.github.io/post/yin-liu-yin/</id>
+        <link href="https://Pray-YueYu.github.io/post/yin-liu-yin/">
+        </link>
+        <updated>2020-08-27T06:03:58.000Z</updated>
+        <content type="html"><![CDATA[<p>柳行周身，绕梦作魂！</p>
+<p>风衣惊雨裳万里。阴柳间，黯然回首，漫卷归客愁心肠，三两而行，五行而顾。怎谁知，忘却今生，点滴行柳黄昏！</p>
+<p>六七星，八九重影，迷崖微动泪衣。长剑起，千里寂。浊酒一杯，切闻山歌伴呕哑，尚醉阴间，仰面席连，不见曦月，唯见长夜苦愁情。</p>
+<p>烛火明，夜短兮，且与池共赏：良辰美景，烟火兼柳行。更作山摧之歌，遗与远思。</p>
+<p>月雩为诗，诗才郎尽。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[引篇 目录]]></title>
         <id>https://Pray-YueYu.github.io/post/yin-pian-mu-lu/</id>
