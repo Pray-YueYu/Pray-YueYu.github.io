@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Pray-YueYu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-08-28T14:56:29.354Z</updated>
+    <updated>2020-08-29T10:23:24.246Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Pray-YueYu.github.io"/>
     <link rel="self" href="https://Pray-YueYu.github.io/atom.xml"/>
@@ -10,6 +10,18 @@
     <logo>https://Pray-YueYu.github.io/images/avatar.png</logo>
     <icon>https://Pray-YueYu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 月雩の小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[残柳引]]></title>
+        <id>https://Pray-YueYu.github.io/post/can-liu-yin/</id>
+        <link href="https://Pray-YueYu.github.io/post/can-liu-yin/">
+        </link>
+        <updated>2020-08-29T10:17:03.000Z</updated>
+        <content type="html"><![CDATA[<p>柳之毵毵，千丝尽残。</p>
+<p>身碎星裂，惠风酒旗，岭然间，忘却昨日作山巅。独与孤楼，伴常风，望烽火，千军万马，悬木一人，赤目长啸随龙吟！</p>
+<p>古时有鸟道，化为顽戏社。长河落白日，大江吞长虹。浮花弄月影，醉酒与仙琼。</p>
+<p>欲报倾城意，携剑指苍穹。漫漫无欲意，夜空山林，寂兮，无言，风雨摇荒地，天雷惊飞湍，不知，终为尘缘。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[阴柳引]]></title>
         <id>https://Pray-YueYu.github.io/post/yin-liu-yin/</id>

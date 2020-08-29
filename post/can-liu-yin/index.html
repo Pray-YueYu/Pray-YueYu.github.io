@@ -1,11 +1,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="[传送门]
-星影落九天，鱼雁舞千弦。但为君沉吟，落日天涯圆。
-题目描述
-罗马皇帝很喜欢玩杀人游戏。 他的军队里面有n个人，每个人都是一个独立的团。最近举行了一次平面几何测试，每个人都得到了一个分数。 皇帝很喜欢平面几何，他对那些得分很低的人..." />
-    <meta name="keywords" content="题解-c++" />
+    <meta name="description" content="柳之毵毵，千丝尽残。
+身碎星裂，惠风酒旗，岭然间，忘却昨日作山巅。独与孤楼，伴常风，望烽火，千军万马，悬木一人，赤目长啸随龙吟！
+古时有鸟道，化为顽戏社。长河落白日，大江吞长虹。浮花弄月影，醉酒与仙琼。
+欲报倾城意，携剑指苍穹。漫漫无欲意，..." />
+    <meta name="keywords" content="柳向,诗" />
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/styles/main.css">
     
@@ -479,12 +479,16 @@
                 
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-27</div>
-            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 5 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-29</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
             <div class="posttag">
                 
-                <a href="https://Pray-YueYu.github.io/tag/h-RIPx9KN/" class="postlink">
-                    <i class="fa fa-tag"></i> 题解-c++
+                <a href="https://Pray-YueYu.github.io/tag/fPW9uR2Jj/" class="postlink">
+                    <i class="fa fa-tag"></i> 柳向
+                </a>
+                
+                <a href="https://Pray-YueYu.github.io/tag/wKikOyG__/" class="postlink">
+                    <i class="fa fa-tag"></i> 诗
                 </a>
                 
             </div>
@@ -492,9 +496,9 @@
         
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>洛谷 P2713:「罗马游戏」</h2>
+                <h2>残柳引</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/</div>
+                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/can-liu-yin/</div>
                 <div id="rootaddr" style="display:none">https://Pray-YueYu.github.io</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -502,121 +506,10 @@
                 </span>
             </div>
             <div class="text ">
-                <p><a href="https://www.luogu.com.cn/problem/P2713">[传送门]</a></p>
-<p><strong>星影落九天，鱼雁舞千弦。但为君沉吟，落日天涯圆。</strong></p>
-<h3 id="题目描述">题目描述</h3>
-<p>罗马皇帝很喜欢玩杀人游戏。 他的军队里面有n个人，每个人都是一个独立的团。最近举行了一次平面几何测试，每个人都得到了一个分数。 皇帝很喜欢平面几何，他对那些得分很低的人嗤之以鼻。他决定玩这样一个游戏。 它可以发两种命令：</p>
-<p>Merger(i, j)。把i所在的团和j所在的团合并成一个团。如果i, j有一个人是死人，那么就忽略该命令。</p>
-<p>Kill(i)。把i所在的团里面得分最低的人杀死。如果i这个人已经死了，这条命令就忽略。</p>
-<p>皇帝希望他每发布一条kill命令，下面的将军就把被杀的人的分数报上来。（如果这条命令被忽略，那么就报0分）</p>
-<h3 id="输入格式">输入格式</h3>
-<p>第一行一个整数n（1&lt;=n&lt;=1000000）。n表示士兵数，m表示总命令数。</p>
-<p>第二行n个整数，其中第i个数表示编号为i的士兵的分数。（分数都是[0..10000]之间的整数）</p>
-<p>第三行一个整数m(1&lt;=m&lt;=100000) 第3+i行描述第i条命令。命令为如下两种形式：1. M i j  2. K i</p>
-<p>输出格式<br>
-如果命令是Kill，对应的请输出被杀人的分数。（如果这个人不存在，就输出0）</p>
-<h3 id="输入输出样例">输入输出样例</h3>
-<h4 id="样例输入">样例输入</h4>
-<pre><code>5
-100 90 66 99 10
-7
-M 1 5
-K 1
-K 1
-M 2 3
-M 3 4
-K 5
-K 4
-</code></pre>
-<h4 id="样例输出">样例输出</h4>
-<pre><code>10
-100
-0
-66
-</code></pre>
-<hr>
-<h3 id="这是左偏树经典题目"><s><strong>这是左偏树经典题目</strong></s></h3>
-<h3 id="但为什么大佬们都用左偏树啊-平板电视-它-不-香-吗"><strong><s>但为什么大佬们都用左偏树啊 平板电视 它 不 香 吗</s></strong></h3>
-<h4 id="其实我不会左偏树"><s><strong>其实我不会左偏树（</strong></s></h4>
-<p><strong>不过话说这皇帝好残暴啊</strong></p>
-<hr>
-<p>对于q[i] (队列)：q[i].first保存的是i的编号，q[i].second保存的是i的数值</p>
-<p>对于vis[i]：判断编号为i的人是否被杀</p>
-<p>对于Fa[i]：编号为i的人的集合中数值最小的人的编号（就是i的father）</p>
-<hr>
-<p>对于每次操作：</p>
-<p>①若操作为'M'，先将i与j各自的father求出来</p>
-<p>若编号为i或j的人已died或者i,j已在同一集合，则跳过此回合</p>
-<p>反之就将i,j两个集合 合并</p>
-<p>②若操作为'K'，</p>
-<p>若编号为i的人已去世，则跳过此回合</p>
-<p>反之输出i所在集合father的值，并令它的vis为true（即已使用过）</p>
-<p>最后将它（指i的father）弹出队列</p>
-<h2 id="code为各位大佬献上我丑陋的代码~">Code：（为各位大佬献上我丑陋的代码~）</h2>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define ll long long
-#include &lt;ext/pb_ds/priority_queue.hpp&gt;//要使用pbds队列就要加这个头文件
-using namespace std;
-const int N=1000010;
-int Fa[N],n,m,vis[N];
-ll read()
-{
-	ll x=0,f=1;char ch=getchar();
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
-	return x*f;
-}//没有丝毫作用的快读~
-struct cmp
-{
-    bool operator()(pair&lt;int,int&gt;a,pair&lt;int,int&gt;b)
-	{
-        if(a.second == b.second)
-			return a.first &gt; b.first;
-        return a.second &gt; b.second;
-    }
-};//队列自动从小到大排序
-int Get_F(int x){return Fa[x]==x?x:Fa[x]=Get_F(Fa[x]);}//并查集，路径压缩
-__gnu_pbds::priority_queue &lt;pair&lt;int,int&gt;,cmp&gt; q[N];//前面的p__gnu_pbds::不能省！
-int main()
-{
-	//freopen(&quot;.in&quot;,&quot;r&quot;,stdin);
-	//freopen(&quot;.out&quot;,&quot;w&quot;,stdout);
-	n=read();
-	for(int i=1;i&lt;=n;i++)
-	{
-		int x=read();
-		Fa[i]=i;
-		q[i].push(make_pair(i,x));//第一个数是编号，第二个是值
-	}//输入~
-	int m=read();
-	for(int i=1;i&lt;=m;i++)
-	{
-		char ch[10];int x,y;
-		scanf(&quot;%s&quot;,ch);
-		if(ch[0]=='M')
-		{
-			x=read(),y=read();
-			int x_0=Get_F(x),y_0=Get_F(y);//得到father
-			if(vis[x]||vis[y]||x_0==y_0)continue;//判断是否可行
-			q[x_0].join(q[y_0]);//将队列q[y_0]中所有值都加入q[x_0]，并且会清空q[y_0]！
-			Fa[y_0]=x_0;
-		}//合并
-		else
-		{
-			x=read();int x_0=Get_F(x);//得到father
-			if(vis[x]){printf(&quot;0\n&quot;);continue;}//判断是否可行
-			printf(&quot;%d\n&quot;,q[x_0].top().second);//输出
-			vis[q[x_0].top().first]=true;//将被输出的人标记一下
-			q[x_0].pop();//弹出
-		}
-	}
-	return 0;	
-} 
-//**月雩·薇嫭**
-</code></pre>
-<h3 id="题外左偏树有什么用">题外：<s>左偏树有什么用</s></h3>
-<h4 id="还有就是晚上肝题是真的爽">还有就是，<s>晚上肝题是真的爽</s></h4>
-<h4 id="by月雩薇嫭-202085-016"><em><strong>by：月雩·薇嫭</strong></em> ,2020.8.5  0:16</h4>
+                <p>柳之毵毵，千丝尽残。</p>
+<p>身碎星裂，惠风酒旗，岭然间，忘却昨日作山巅。独与孤楼，伴常风，望烽火，千军万马，悬木一人，赤目长啸随龙吟！</p>
+<p>古时有鸟道，化为顽戏社。长河落白日，大江吞长虹。浮花弄月影，醉酒与仙琼。</p>
+<p>欲报倾城意，携剑指苍穹。漫漫无欲意，夜空山林，寂兮，无言，风雨摇荒地，天雷惊飞湍，不知，终为尘缘。</p>
 
             </div>
             <hr style="width: 80%;">
@@ -654,36 +547,24 @@ int main()
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>月雩·薇嫮</li>
-            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/</li>
+            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/can-liu-yin/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         <div id="otherpost">
             
-            <div class="prev-post-pc">
-                <div id="ppcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/uncomplicated-card-recreation/';return false">
-                    
-                    <img src="https://i.loli.net/2020/08/27/uqIcgQw1kWiEarV.jpg" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">[原创题目]Uncomplicated Card Recreation</h4>
-                </div>
-            </div>
-            <div class="prev-post">
-                上一篇 <a href="https://Pray-YueYu.github.io/post/uncomplicated-card-recreation/">[原创题目]Uncomplicated Card Recreation</a>
-            </div>
-            
             
             <div class="next-post-pc">
-                <div id="npcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/';return false">
+                <div id="npcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/yin-liu-yin/';return false">
                     
-                    <img src="https://i.loli.net/2020/08/27/bVp4wGPvQMHm8aK.jpg" style="width: 100%;" class="opimg">
+                    <img src="https://Pray-YueYu.github.io/post-images/yin-liu-yin.jpg" style="width: 100%;" class="opimg">
                     
-                    <h4 class="optitle">洛谷 P4014:「分配问题」</h4>
+                    <h4 class="optitle">阴柳引</h4>
                 </div>
             </div>
             <div class="next-post">
-                下一篇 <a href="https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/">洛谷 P4014:「分配问题」</a>
+                下一篇 <a href="https://Pray-YueYu.github.io/post/yin-liu-yin/">阴柳引</a>
             </div>
             
         </div>
@@ -801,41 +682,7 @@ int main()
 </script>
         
         <div class="toc-container">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0">题目描述</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F">输入格式</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B">输入输出样例</a>
-<ul>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5">样例输入</a></li>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA">样例输出</a></li>
-</ul>
-</li>
-<li><a href="#%E8%BF%99%E6%98%AF%E5%B7%A6%E5%81%8F%E6%A0%91%E7%BB%8F%E5%85%B8%E9%A2%98%E7%9B%AE"><s><strong>这是左偏树经典题目</strong></s></a></li>
-<li><a href="#%E4%BD%86%E4%B8%BA%E4%BB%80%E4%B9%88%E5%A4%A7%E4%BD%AC%E4%BB%AC%E9%83%BD%E7%94%A8%E5%B7%A6%E5%81%8F%E6%A0%91%E5%95%8A-%E5%B9%B3%E6%9D%BF%E7%94%B5%E8%A7%86-%E5%AE%83-%E4%B8%8D-%E9%A6%99-%E5%90%97"><strong><s>但为什么大佬们都用左偏树啊 平板电视 它 不 香 吗</s></strong></a>
-<ul>
-<li><a href="#%E5%85%B6%E5%AE%9E%E6%88%91%E4%B8%8D%E4%BC%9A%E5%B7%A6%E5%81%8F%E6%A0%91"><s><strong>其实我不会左偏树（</strong></s></a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><a href="#code%E4%B8%BA%E5%90%84%E4%BD%8D%E5%A4%A7%E4%BD%AC%E7%8C%AE%E4%B8%8A%E6%88%91%E4%B8%91%E9%99%8B%E7%9A%84%E4%BB%A3%E7%A0%81~">Code：（为各位大佬献上我丑陋的代码~）</a>
-<ul>
-<li><a href="#%E9%A2%98%E5%A4%96%E5%B7%A6%E5%81%8F%E6%A0%91%E6%9C%89%E4%BB%80%E4%B9%88%E7%94%A8">题外：<s>左偏树有什么用</s></a>
-<ul>
-<li><a href="#%E8%BF%98%E6%9C%89%E5%B0%B1%E6%98%AF%E6%99%9A%E4%B8%8A%E8%82%9D%E9%A2%98%E6%98%AF%E7%9C%9F%E7%9A%84%E7%88%BD">还有就是，<s>晚上肝题是真的爽</s></a></li>
-<li><a href="#by%E6%9C%88%E9%9B%A9%E8%96%87%E5%AB%AD-202085-016"><em><strong>by：月雩·薇嫭</strong></em> ,2020.8.5  0:16</a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
+            
     </div>
     </div>
     </div>
@@ -1073,7 +920,7 @@ int main()
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "洛谷 P2713:「罗马游戏」",
+                    title: "残柳引",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {
