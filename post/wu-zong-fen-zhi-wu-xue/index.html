@@ -1,12 +1,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="题目链接
-题目描述
-有n件工作要分配给n个人做.第i个人做第j件工作产生的效益为CijC_{ij}Cij​.试设计一个将n件工作分配给n个人做的分配方案,使产生的总效益最大.
-输入格式
-文件的第1行有1个正整数n,表示有n件工作要分配给n个..." />
-    <meta name="keywords" content="题解" />
+    <meta name="description" content="(不断更新中……)→\to→forever
+1.世间三事：(情)[结果]、(生、死)[轮回]、(天、地)[斗争]，不断转换
+①：情：
+万物之感，皆由情生。&quot;万物皆情&quot;结果{爱：人之情，此为首。极意生爱者，永恒也。为之可以..." />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/styles/main.css">
     
@@ -475,25 +474,21 @@
         <div class="postshow" style="padding-bottom: 0;">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
-                <img src="https://i.loli.net/2020/08/27/bVp4wGPvQMHm8aK.jpg" class="postimage" style="cursor:auto">
+                <img src="https://Pray-YueYu.github.io/post-images/wu-zong-fen-zhi-wu-xue.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-27</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 6 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-30</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
                 <div class="posttag">
-                    
-                    <a href="https://Pray-YueYu.github.io/tag/m8J6coMol/" class="postlink">
-                        <i class="fa fa-tag"></i> 题解
-                    </a>
                     
                 </div>
             </div>
             
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>洛谷 P4014:「分配问题」</h2>
+                <h2>无宗分支—无学</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/</div>
+                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/wu-zong-fen-zhi-wu-xue/</div>
                 <div id="rootaddr" style="display:none">https://Pray-YueYu.github.io</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -501,175 +496,24 @@
                 </span>
             </div>
             <div class="text ">
-                <p><a href="https://www.luogu.com.cn/problem/P4014">题目链接</a></p>
-<h3 id="题目描述">题目描述</h3>
-<p>有n件工作要分配给n个人做.第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.试设计一个将n件工作分配给n个人做的分配方案,使产生的总效益最大.</p>
-<h3 id="输入格式">输入格式</h3>
-<p>文件的第1行有1个正整数n,表示有n件工作要分配给n个人做.<br>
-接下来的n行中,每行有n个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>,表示第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.</p>
-<h3 id="输出格式">输出格式</h3>
-<p>两行分别输出最小总效益和最大总效益。</p>
-<h3 id="输入输出样例">输入输出样例</h3>
-<h4 id="样例输入">样例输入</h4>
-<pre><code>5
-2 2 2 1 2
-2 3 1 2 4
-2 0 1 1 1
-2 3 4 3 3
-3 2 1 2 1
-</code></pre>
-<h4 id="样例输出">样例输出</h4>
-<pre><code>5
-14
-</code></pre>
-<h3 id="说明提示">说明/提示</h3>
-<p>1<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\le</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span></span></span></span>n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">\le100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span><br>
-<strong>一个人只能修一个工件</strong></p>
-<p>这是一道<strong>费用流经典题目</strong></p>
-<h3 id="建图">建图</h3>
-<ul>
-<li><strong>1.<strong>设</strong>0</strong>为<strong>超级源点</strong>，<strong>2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n+1</strong>为<strong>超级汇点</strong>，第<strong>i</strong>个人的节点为<strong>i</strong>，第<strong>j</strong>件工作节点为<strong>j+n</strong></li>
-<li><strong>2.<strong>从</strong>超级源点</strong> 向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[1,n]连接一条容量为1，费用为0的边</li>
-<li><strong>3.<strong>从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[n+1,2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n]向</strong>超级汇点</strong>连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>的边</li>
-<li><strong>4</strong>.从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [1, n]向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [n+1,n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span> 2]，连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{i, j}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>的边</li>
-</ul>
-<h3 id="做法">做法</h3>
-<p>跑一遍<strong>最小费用最大流</strong>&amp;<strong>最大费用最小流</strong>，然后再分别输出最<strong>小</strong>值与最<strong>大</strong>值<br>
-(<strong>温馨提醒：一定要输出，不然会WA！</strong>)</p>
-<p><strong>为各位大佬献上我丑陋的代码~</strong></p>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define FQ(i,a,b) for(register int i=a;i&lt;=b;i++)
-#define prf printf
-#define scf scanf
-#define ll long long
-using namespace std;
-const int N=5e4+10;
-int INF,n,num=1,ne[N],fi[N],to[N],w[N],pl[N],S,T;
-int dst[N],incf[N],P[N],vis[N],ans;
-queue&lt;int&gt; q;
-void FindMaxN()
-{
-	int fINDmAXn[1];
-	memset(fINDmAXn,128/2,sizeof(fINDmAXn));	
-	INF=fINDmAXn[0];
-}
-ll read()
-{
-	ll x=0,f=1;char ch=getchar();
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
-	return x*f;	
-}
-void add(int x,int y,int z,int kl)
-{
-    ne[++num]=fi[x];    
-    fi[x]=num;    
-    to[num]=y;   
-    w[num]=z;
-    pl[num]=kl; 
-}
-bool spfa()
-{ 
-    for(int i=S;i&lt;=T;i++)dst[i]=INF; 
-    memset(vis,0,sizeof(vis));  
-    q.push(S),dst[S]=0;	
-	incf[S]=1&lt;&lt;30,vis[S]=true;   
-    while(!q.empty())
-    {      
-        int x=q.front();      
-        vis[x]=false;q.pop();        
-        for(int i=fi[x];i;i=ne[i])
-        {            
-            int ver=to[i];             
-            if(dst[ver]&gt;dst[x]+pl[i]&amp;&amp;w[i])
-            {                
-                dst[ver]=dst[x]+pl[i];                
-                incf[ver]=min(incf[x],w[i]);                
-                P[ver]=i;                
-                if(!vis[ver])vis[ver]=true,q.push(ver);                 
-            }             
-        }    
-    }
-    return dst[T]!=INF;  
-}
-void update()
-{	
-	int x=T;     
-    while(x!=S)
-    {         
-        int i=P[x];         
-        w[i]-=incf[T];       
-        w[i^1]+=incf[T];
-   
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-bool spfa_d()
-{
-    for(int i=S;i&lt;=T;i++)dst[i]=-INF;
-    q.push(S),dst[S]=0;incf[S]=1&lt;&lt;30;
-    while(!q.empty())
-    {
-        int x=q.front();
-        vis[x]=false;q.pop();
-        for(int i=fi[x];i;i=ne[i])
-        {
-            int ver=to[i];
-            if(dst[ver]&lt;dst[x]+pl[i]&amp;&amp;w[i])
-            {
-                dst[ver]=dst[x]+pl[i];
-                incf[ver]=min(incf[x],w[i]);
-                P[ver]=i;
-                if(!vis[ver])vis[ver]=true,q.push(ver);
-            }
-        }
-    }
-    return dst[T]!=-INF;
-}
-void update_d()
-{
-	int x=T;
-    while(x!=S)
-    {
-        int i=P[x];
-        w[i]-=incf[T];
-        w[i^1]+=incf[T];
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-void add_x(int x,int y,int z,int kl)
-{
-	add(x,y,z,kl);
-	add(y,x,0,-kl);
-}
-int main()
-{
-	//freopen(&quot;.in&quot;,&quot;r&quot;,stdin);
-	//freopen(&quot;.out&quot;,&quot;w&quot;,stdout);
-	FindMaxN();
-	n=read();S=0,T=n*2+1;
-	for(int i=1;i&lt;=n;i++)
-	{
-		for(int j=1;j&lt;=n;j++)
-		{
-			int x=read();
-			add_x(i,j+n,1,x);
-		}
-	}
-	for(int i=1;i&lt;=n;i++)add_x(S,i,1,0),add_x(i+n,T,1,0);
-	while(spfa())update();
-	printf(&quot;%d\n&quot;,ans);
-	ans=0;
-	for(int i=2;i&lt;=num;i+=2)w[i]+=w[i^1],w[i^1]=0;
-	while(spfa_d())update_d();
-	printf(&quot;%d\n&quot;,ans);
-	return 0;		
-}
-//**月雩·薇嫭**
-</code></pre>
-<h3 id="by月雩薇嫭"><em><strong>by：月雩·薇嫭</strong></em></h3>
+                <p>(不断更新中……)<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>→</mo></mrow><annotation encoding="application/x-tex">\to</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.36687em;vertical-align:0em;"></span><span class="mrel">→</span></span></span></span><strong>forever</strong></p>
+<p>1.世间三事：(情)[结果]、(生、死)[轮回]、(天、地)[斗争]，不断转换</p>
+<p>①：情：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">万</mi><mi mathvariant="normal">物</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">感</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">皆</mi><mi mathvariant="normal">由</mi><mi mathvariant="normal">情</mi><mi mathvariant="normal">生</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">&quot;</mi><mi mathvariant="normal">万</mi><mi mathvariant="normal">物</mi><mi mathvariant="normal">皆</mi><mi mathvariant="normal">情</mi><mi mathvariant="normal">&quot;</mi><mspace linebreak="newline"></mspace><mi mathvariant="normal">结</mi><mi mathvariant="normal">果</mi><mrow><mo fence="true">{</mo><mtable><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mstyle mathcolor="red"><mi mathvariant="normal">爱</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">人</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">情</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">此</mi><mi mathvariant="normal">为</mi><mi mathvariant="normal">首</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">极</mi><mi mathvariant="normal">意</mi><mi mathvariant="normal">生</mi><mi mathvariant="normal">爱</mi><mi mathvariant="normal">者</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">永</mi><mi mathvariant="normal">恒</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">为</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">可</mi><mi mathvariant="normal">以</mi><mi mathvariant="normal">付</mi><mi mathvariant="normal">以</mi><mi mathvariant="normal">命</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">为</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">亦</mi><mi mathvariant="normal">可</mi><mi mathvariant="normal">道</mi><mi mathvariant="normal">永</mi><mi mathvariant="normal">恒</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">概</mi><mi mathvariant="normal">前</mi><mi mathvariant="normal">世</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">因</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">后</mi><mi mathvariant="normal">世</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">果</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">。</mi></mstyle></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mstyle mathcolor="orange"><mi mathvariant="normal">亲</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">人</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">故</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">敬</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">或</mi><mi mathvariant="normal">怒</mi><mi mathvariant="normal">而</mi><mi mathvariant="normal">无</mi><mi mathvariant="normal">怨</mi><mi mathvariant="normal">；</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">孝</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">或</mi><mi mathvariant="normal">病</mi><mi mathvariant="normal">而</mi><mi mathvariant="normal">百</mi><mi mathvariant="normal">顺</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">若</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">离</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">则</mi><mi mathvariant="normal">泪</mi><mi mathvariant="normal">涌</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">是</mi><mi mathvariant="normal">情</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">。</mi></mstyle></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mstyle mathcolor="blue"><mi mathvariant="normal">友</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">人</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">援</mi><mi mathvariant="normal">者</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">意</mi><mi mathvariant="normal">投</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">为</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">两</mi><mi mathvariant="normal">肋</mi><mi mathvariant="normal">插</mi><mi mathvariant="normal">刀</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">亦</mi><mi mathvariant="normal">可</mi><mi mathvariant="normal">入</mi><mi mathvariant="normal">山</mi><mi mathvariant="normal">下</mi><mi mathvariant="normal">海</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">亦</mi><mi mathvariant="normal">可</mi><mi mathvariant="normal">成</mi><mi mathvariant="normal">名</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">亦</mi><mi mathvariant="normal">可</mi><mi mathvariant="normal">入</mi><mi mathvariant="normal">魔</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">概</mi><mi mathvariant="normal">友</mi><mi mathvariant="normal">之</mi><mi mathvariant="normal">好</mi><mi mathvariant="normal">恶</mi><mi mathvariant="normal">也</mi><mi mathvariant="normal">。</mi></mstyle></mstyle></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">万物之感，皆由情生。&quot;万物皆情&quot;\\
+结果
+\begin{cases}
+\color{red}爱：人之情，此为首。极意生爱者，永恒也。为之可以付以命，为之亦可道永恒。概前世之因，后世之果也。\\
+\color{orange}亲：人之故。必敬之，或怒而无怨；必孝之，或病而百顺。若有离，则泪涌，是情也。\\
+\color{blue}友：人之援者，意投也。为之两肋插刀，亦可入山下海。亦可成名，亦可入魔。概友之好恶也。\\
+\end{cases}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord cjk_fallback">万</span><span class="mord cjk_fallback">物</span><span class="mord cjk_fallback">之</span><span class="mord cjk_fallback">感</span><span class="mord cjk_fallback">，</span><span class="mord cjk_fallback">皆</span><span class="mord cjk_fallback">由</span><span class="mord cjk_fallback">情</span><span class="mord cjk_fallback">生</span><span class="mord cjk_fallback">。</span><span class="mord">&quot;</span><span class="mord cjk_fallback">万</span><span class="mord cjk_fallback">物</span><span class="mord cjk_fallback">皆</span><span class="mord cjk_fallback">情</span><span class="mord">&quot;</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:4.32em;vertical-align:-1.9099999999999997em;"></span><span class="mord cjk_fallback">结</span><span class="mord cjk_fallback">果</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen"><span class="delimsizing mult"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.35002em;"><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎩</span></span></span><span style="top:-2.19999em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-3.1500100000000004em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎨</span></span></span><span style="top:-4.30001em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎪</span></span></span><span style="top:-4.60002em;"><span class="pstrut" style="height:3.15em;"></span><span class="delimsizinginner delim-size4"><span>⎧</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.8500199999999998em;"><span></span></span></span></span></span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:2.41em;"><span style="top:-4.41em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord cjk_fallback" style="color:red;">爱</span><span class="mord cjk_fallback" style="color:red;">：</span><span class="mord cjk_fallback" style="color:red;">人</span><span class="mord cjk_fallback" style="color:red;">之</span><span class="mord cjk_fallback" style="color:red;">情</span><span class="mord cjk_fallback" style="color:red;">，</span><span class="mord cjk_fallback" style="color:red;">此</span><span class="mord cjk_fallback" style="color:red;">为</span><span class="mord cjk_fallback" style="color:red;">首</span><span class="mord cjk_fallback" style="color:red;">。</span><span class="mord cjk_fallback" style="color:red;">极</span><span class="mord cjk_fallback" style="color:red;">意</span><span class="mord cjk_fallback" style="color:red;">生</span><span class="mord cjk_fallback" style="color:red;">爱</span><span class="mord cjk_fallback" style="color:red;">者</span><span class="mord cjk_fallback" style="color:red;">，</span><span class="mord cjk_fallback" style="color:red;">永</span><span class="mord cjk_fallback" style="color:red;">恒</span><span class="mord cjk_fallback" style="color:red;">也</span><span class="mord cjk_fallback" style="color:red;">。</span><span class="mord cjk_fallback" style="color:red;">为</span><span class="mord cjk_fallback" style="color:red;">之</span><span class="mord cjk_fallback" style="color:red;">可</span><span class="mord cjk_fallback" style="color:red;">以</span><span class="mord cjk_fallback" style="color:red;">付</span><span class="mord cjk_fallback" style="color:red;">以</span><span class="mord cjk_fallback" style="color:red;">命</span><span class="mord cjk_fallback" style="color:red;">，</span><span class="mord cjk_fallback" style="color:red;">为</span><span class="mord cjk_fallback" style="color:red;">之</span><span class="mord cjk_fallback" style="color:red;">亦</span><span class="mord cjk_fallback" style="color:red;">可</span><span class="mord cjk_fallback" style="color:red;">道</span><span class="mord cjk_fallback" style="color:red;">永</span><span class="mord cjk_fallback" style="color:red;">恒</span><span class="mord cjk_fallback" style="color:red;">。</span><span class="mord cjk_fallback" style="color:red;">概</span><span class="mord cjk_fallback" style="color:red;">前</span><span class="mord cjk_fallback" style="color:red;">世</span><span class="mord cjk_fallback" style="color:red;">之</span><span class="mord cjk_fallback" style="color:red;">因</span><span class="mord cjk_fallback" style="color:red;">，</span><span class="mord cjk_fallback" style="color:red;">后</span><span class="mord cjk_fallback" style="color:red;">世</span><span class="mord cjk_fallback" style="color:red;">之</span><span class="mord cjk_fallback" style="color:red;">果</span><span class="mord cjk_fallback" style="color:red;">也</span><span class="mord cjk_fallback" style="color:red;">。</span></span></span><span style="top:-2.97em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord cjk_fallback" style="color:orange;">亲</span><span class="mord cjk_fallback" style="color:orange;">：</span><span class="mord cjk_fallback" style="color:orange;">人</span><span class="mord cjk_fallback" style="color:orange;">之</span><span class="mord cjk_fallback" style="color:orange;">故</span><span class="mord cjk_fallback" style="color:orange;">。</span><span class="mord cjk_fallback" style="color:orange;">必</span><span class="mord cjk_fallback" style="color:orange;">敬</span><span class="mord cjk_fallback" style="color:orange;">之</span><span class="mord cjk_fallback" style="color:orange;">，</span><span class="mord cjk_fallback" style="color:orange;">或</span><span class="mord cjk_fallback" style="color:orange;">怒</span><span class="mord cjk_fallback" style="color:orange;">而</span><span class="mord cjk_fallback" style="color:orange;">无</span><span class="mord cjk_fallback" style="color:orange;">怨</span><span class="mord cjk_fallback" style="color:orange;">；</span><span class="mord cjk_fallback" style="color:orange;">必</span><span class="mord cjk_fallback" style="color:orange;">孝</span><span class="mord cjk_fallback" style="color:orange;">之</span><span class="mord cjk_fallback" style="color:orange;">，</span><span class="mord cjk_fallback" style="color:orange;">或</span><span class="mord cjk_fallback" style="color:orange;">病</span><span class="mord cjk_fallback" style="color:orange;">而</span><span class="mord cjk_fallback" style="color:orange;">百</span><span class="mord cjk_fallback" style="color:orange;">顺</span><span class="mord cjk_fallback" style="color:orange;">。</span><span class="mord cjk_fallback" style="color:orange;">若</span><span class="mord cjk_fallback" style="color:orange;">有</span><span class="mord cjk_fallback" style="color:orange;">离</span><span class="mord cjk_fallback" style="color:orange;">，</span><span class="mord cjk_fallback" style="color:orange;">则</span><span class="mord cjk_fallback" style="color:orange;">泪</span><span class="mord cjk_fallback" style="color:orange;">涌</span><span class="mord cjk_fallback" style="color:orange;">，</span><span class="mord cjk_fallback" style="color:orange;">是</span><span class="mord cjk_fallback" style="color:orange;">情</span><span class="mord cjk_fallback" style="color:orange;">也</span><span class="mord cjk_fallback" style="color:orange;">。</span></span></span><span style="top:-1.5300000000000002em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord cjk_fallback" style="color:blue;">友</span><span class="mord cjk_fallback" style="color:blue;">：</span><span class="mord cjk_fallback" style="color:blue;">人</span><span class="mord cjk_fallback" style="color:blue;">之</span><span class="mord cjk_fallback" style="color:blue;">援</span><span class="mord cjk_fallback" style="color:blue;">者</span><span class="mord cjk_fallback" style="color:blue;">，</span><span class="mord cjk_fallback" style="color:blue;">意</span><span class="mord cjk_fallback" style="color:blue;">投</span><span class="mord cjk_fallback" style="color:blue;">也</span><span class="mord cjk_fallback" style="color:blue;">。</span><span class="mord cjk_fallback" style="color:blue;">为</span><span class="mord cjk_fallback" style="color:blue;">之</span><span class="mord cjk_fallback" style="color:blue;">两</span><span class="mord cjk_fallback" style="color:blue;">肋</span><span class="mord cjk_fallback" style="color:blue;">插</span><span class="mord cjk_fallback" style="color:blue;">刀</span><span class="mord cjk_fallback" style="color:blue;">，</span><span class="mord cjk_fallback" style="color:blue;">亦</span><span class="mord cjk_fallback" style="color:blue;">可</span><span class="mord cjk_fallback" style="color:blue;">入</span><span class="mord cjk_fallback" style="color:blue;">山</span><span class="mord cjk_fallback" style="color:blue;">下</span><span class="mord cjk_fallback" style="color:blue;">海</span><span class="mord cjk_fallback" style="color:blue;">。</span><span class="mord cjk_fallback" style="color:blue;">亦</span><span class="mord cjk_fallback" style="color:blue;">可</span><span class="mord cjk_fallback" style="color:blue;">成</span><span class="mord cjk_fallback" style="color:blue;">名</span><span class="mord cjk_fallback" style="color:blue;">，</span><span class="mord cjk_fallback" style="color:blue;">亦</span><span class="mord cjk_fallback" style="color:blue;">可</span><span class="mord cjk_fallback" style="color:blue;">入</span><span class="mord cjk_fallback" style="color:blue;">魔</span><span class="mord cjk_fallback" style="color:blue;">。</span><span class="mord cjk_fallback" style="color:blue;">概</span><span class="mord cjk_fallback" style="color:blue;">友</span><span class="mord cjk_fallback" style="color:blue;">之</span><span class="mord cjk_fallback" style="color:blue;">好</span><span class="mord cjk_fallback" style="color:blue;">恶</span><span class="mord cjk_fallback" style="color:blue;">也</span><span class="mord cjk_fallback" style="color:blue;">。</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.9099999999999997em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
+<p>②：生死：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">&quot;</mi><mi mathvariant="normal">天</mi><mi mathvariant="normal">地</mi><mi mathvariant="normal">轮</mi><mi mathvariant="normal">换</mi><mi mathvariant="normal">&quot;</mi><mspace linebreak="newline"></mspace><mi mathvariant="normal">轮</mi><mi mathvariant="normal">回</mi><mrow><mo fence="true">{</mo><mtable><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mstyle mathcolor="green"><mi mathvariant="normal">生</mi><mi mathvariant="normal">：</mi><mi mathvariant="normal">天</mi><mi mathvariant="normal">地</mi><mi mathvariant="normal">万</mi><mi mathvariant="normal">物</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">其</mi><mi mathvariant="normal">原</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">亦</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">其</mi><mi mathvariant="normal">因</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">彼</mi><mi mathvariant="normal">其</mi><mi mathvariant="normal">于</mi><mi mathvariant="normal">世</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">所</mi><mi mathvariant="normal">为</mi><mi mathvariant="normal">，</mi><mi mathvariant="normal">必</mi><mi mathvariant="normal">染</mi><mi mathvariant="normal">其</mi><mi mathvariant="normal">道</mi><mi mathvariant="normal">。</mi><mi mathvariant="normal">概</mi><mi mathvariant="normal">生</mi><mi mathvariant="normal">即</mi><mi mathvariant="normal">有</mi><mi mathvariant="normal">理</mi><mi mathvariant="normal">。</mi></mstyle></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel="0" displaystyle="false"><mstyle mathcolor="blake"><mi mathvariant="normal">死</mi><mi mathvariant="normal">：</mi></mstyle></mstyle></mtd></mtr></mtable></mrow></mrow><annotation encoding="application/x-tex">&quot;天地轮换&quot;\\
+轮回
+\begin{cases}
+\color{green}生：天地万物，必有其原，亦必有其因。彼其于世，必有所为，必染其道。概生即有理。\\\color{blake}死：
+\end{cases}
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">&quot;</span><span class="mord cjk_fallback">天</span><span class="mord cjk_fallback">地</span><span class="mord cjk_fallback">轮</span><span class="mord cjk_fallback">换</span><span class="mord">&quot;</span></span><span class="mspace newline"></span><span class="base"><span class="strut" style="height:3.0000299999999998em;vertical-align:-1.25003em;"></span><span class="mord cjk_fallback">轮</span><span class="mord cjk_fallback">回</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="minner"><span class="mopen delimcenter" style="top:0em;"><span class="delimsizing size4">{</span></span><span class="mord"><span class="mtable"><span class="col-align-l"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:1.69em;"><span style="top:-3.69em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord cjk_fallback" style="color:green;">生</span><span class="mord cjk_fallback" style="color:green;">：</span><span class="mord cjk_fallback" style="color:green;">天</span><span class="mord cjk_fallback" style="color:green;">地</span><span class="mord cjk_fallback" style="color:green;">万</span><span class="mord cjk_fallback" style="color:green;">物</span><span class="mord cjk_fallback" style="color:green;">，</span><span class="mord cjk_fallback" style="color:green;">必</span><span class="mord cjk_fallback" style="color:green;">有</span><span class="mord cjk_fallback" style="color:green;">其</span><span class="mord cjk_fallback" style="color:green;">原</span><span class="mord cjk_fallback" style="color:green;">，</span><span class="mord cjk_fallback" style="color:green;">亦</span><span class="mord cjk_fallback" style="color:green;">必</span><span class="mord cjk_fallback" style="color:green;">有</span><span class="mord cjk_fallback" style="color:green;">其</span><span class="mord cjk_fallback" style="color:green;">因</span><span class="mord cjk_fallback" style="color:green;">。</span><span class="mord cjk_fallback" style="color:green;">彼</span><span class="mord cjk_fallback" style="color:green;">其</span><span class="mord cjk_fallback" style="color:green;">于</span><span class="mord cjk_fallback" style="color:green;">世</span><span class="mord cjk_fallback" style="color:green;">，</span><span class="mord cjk_fallback" style="color:green;">必</span><span class="mord cjk_fallback" style="color:green;">有</span><span class="mord cjk_fallback" style="color:green;">所</span><span class="mord cjk_fallback" style="color:green;">为</span><span class="mord cjk_fallback" style="color:green;">，</span><span class="mord cjk_fallback" style="color:green;">必</span><span class="mord cjk_fallback" style="color:green;">染</span><span class="mord cjk_fallback" style="color:green;">其</span><span class="mord cjk_fallback" style="color:green;">道</span><span class="mord cjk_fallback" style="color:green;">。</span><span class="mord cjk_fallback" style="color:green;">概</span><span class="mord cjk_fallback" style="color:green;">生</span><span class="mord cjk_fallback" style="color:green;">即</span><span class="mord cjk_fallback" style="color:green;">有</span><span class="mord cjk_fallback" style="color:green;">理</span><span class="mord cjk_fallback" style="color:green;">。</span></span></span><span style="top:-2.25em;"><span class="pstrut" style="height:3.008em;"></span><span class="mord"><span class="mord cjk_fallback" style="color:blake;">死</span><span class="mord cjk_fallback" style="color:blake;">：</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:1.19em;"><span></span></span></span></span></span></span></span><span class="mclose nulldelimiter"></span></span></span></span></span></span></p>
 
             </div>
             <hr style="width: 80%;">
@@ -707,37 +551,13 @@ int main()
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>月雩·薇嫮</li>
-            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/</li>
+            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/wu-zong-fen-zhi-wu-xue/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         <div id="otherpost">
             
-            <div class="prev-post-pc">
-                <div id="ppcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/';return false">
-                    
-                    <img src="https://Pray-YueYu.github.io/post-images/luo-gu-p2713luo-ma-you-xi.jpg" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">洛谷 P2713:「罗马游戏」</h4>
-                </div>
-            </div>
-            <div class="prev-post">
-                上一篇 <a href="https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/">洛谷 P2713:「罗马游戏」</a>
-            </div>
-            
-            
-            <div class="next-post-pc">
-                <div id="npcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/about/';return false">
-                    
-                    <img src="https://Pray-YueYu.github.io/post-images/about.jpg" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">致来访者---关于我与博客</h4>
-                </div>
-            </div>
-            <div class="next-post">
-                下一篇 <a href="https://Pray-YueYu.github.io/post/about/">致来访者---关于我与博客</a>
-            </div>
             
         </div>
     </div>
@@ -854,30 +674,7 @@ int main()
 </script>
         
         <div class="toc-container">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0">题目描述</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F">输入格式</a></li>
-<li><a href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F">输出格式</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B">输入输出样例</a>
-<ul>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5">样例输入</a></li>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA">样例输出</a></li>
-</ul>
-</li>
-<li><a href="#%E8%AF%B4%E6%98%8E%E6%8F%90%E7%A4%BA">说明/提示</a></li>
-<li><a href="#%E5%BB%BA%E5%9B%BE">建图</a></li>
-<li><a href="#%E5%81%9A%E6%B3%95">做法</a></li>
-<li><a href="#by%E6%9C%88%E9%9B%A9%E8%96%87%E5%AB%AD"><em><strong>by：月雩·薇嫭</strong></em></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
+            
     </div>
     </div>
     </div>
@@ -1115,7 +912,7 @@ int main()
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "洛谷 P4014:「分配问题」",
+                    title: "无宗分支—无学",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {

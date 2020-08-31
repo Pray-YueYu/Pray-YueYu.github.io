@@ -1,12 +1,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="题目链接
-题目描述
-有n件工作要分配给n个人做.第i个人做第j件工作产生的效益为CijC_{ij}Cij​.试设计一个将n件工作分配给n个人做的分配方案,使产生的总效益最大.
-输入格式
-文件的第1行有1个正整数n,表示有n件工作要分配给n个..." />
-    <meta name="keywords" content="题解" />
+    <meta name="description" content="添加图片：
+珂朵莉(抱走)树，又叫Old Driver Tree(老司机树/xyx)
+" />
+    <meta name="keywords" content="" />
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://Pray-YueYu.github.io/styles/main.css">
     
@@ -475,25 +473,21 @@
         <div class="postshow" style="padding-bottom: 0;">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
-                <img src="https://i.loli.net/2020/08/27/bVp4wGPvQMHm8aK.jpg" class="postimage" style="cursor:auto">
+                <img src="https://Pray-YueYu.github.io/post-images/ke-duo-li-shu-odt.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-27</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 6 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-29</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
                 <div class="posttag">
-                    
-                    <a href="https://Pray-YueYu.github.io/tag/m8J6coMol/" class="postlink">
-                        <i class="fa fa-tag"></i> 题解
-                    </a>
                     
                 </div>
             </div>
             
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>洛谷 P4014:「分配问题」</h2>
+                <h2>珂朵莉树(ODT)</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/</div>
+                <div id="pl" style="display:none">https://Pray-YueYu.github.io/post/ke-duo-li-shu-odt/</div>
                 <div id="rootaddr" style="display:none">https://Pray-YueYu.github.io</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -501,175 +495,8 @@
                 </span>
             </div>
             <div class="text ">
-                <p><a href="https://www.luogu.com.cn/problem/P4014">题目链接</a></p>
-<h3 id="题目描述">题目描述</h3>
-<p>有n件工作要分配给n个人做.第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.试设计一个将n件工作分配给n个人做的分配方案,使产生的总效益最大.</p>
-<h3 id="输入格式">输入格式</h3>
-<p>文件的第1行有1个正整数n,表示有n件工作要分配给n个人做.<br>
-接下来的n行中,每行有n个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>,表示第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.</p>
-<h3 id="输出格式">输出格式</h3>
-<p>两行分别输出最小总效益和最大总效益。</p>
-<h3 id="输入输出样例">输入输出样例</h3>
-<h4 id="样例输入">样例输入</h4>
-<pre><code>5
-2 2 2 1 2
-2 3 1 2 4
-2 0 1 1 1
-2 3 4 3 3
-3 2 1 2 1
-</code></pre>
-<h4 id="样例输出">样例输出</h4>
-<pre><code>5
-14
-</code></pre>
-<h3 id="说明提示">说明/提示</h3>
-<p>1<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\le</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span></span></span></span>n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">\le100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span><br>
-<strong>一个人只能修一个工件</strong></p>
-<p>这是一道<strong>费用流经典题目</strong></p>
-<h3 id="建图">建图</h3>
-<ul>
-<li><strong>1.<strong>设</strong>0</strong>为<strong>超级源点</strong>，<strong>2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n+1</strong>为<strong>超级汇点</strong>，第<strong>i</strong>个人的节点为<strong>i</strong>，第<strong>j</strong>件工作节点为<strong>j+n</strong></li>
-<li><strong>2.<strong>从</strong>超级源点</strong> 向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[1,n]连接一条容量为1，费用为0的边</li>
-<li><strong>3.<strong>从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[n+1,2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n]向</strong>超级汇点</strong>连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>的边</li>
-<li><strong>4</strong>.从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [1, n]向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [n+1,n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span> 2]，连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{i, j}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>的边</li>
-</ul>
-<h3 id="做法">做法</h3>
-<p>跑一遍<strong>最小费用最大流</strong>&amp;<strong>最大费用最小流</strong>，然后再分别输出最<strong>小</strong>值与最<strong>大</strong>值<br>
-(<strong>温馨提醒：一定要输出，不然会WA！</strong>)</p>
-<p><strong>为各位大佬献上我丑陋的代码~</strong></p>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define FQ(i,a,b) for(register int i=a;i&lt;=b;i++)
-#define prf printf
-#define scf scanf
-#define ll long long
-using namespace std;
-const int N=5e4+10;
-int INF,n,num=1,ne[N],fi[N],to[N],w[N],pl[N],S,T;
-int dst[N],incf[N],P[N],vis[N],ans;
-queue&lt;int&gt; q;
-void FindMaxN()
-{
-	int fINDmAXn[1];
-	memset(fINDmAXn,128/2,sizeof(fINDmAXn));	
-	INF=fINDmAXn[0];
-}
-ll read()
-{
-	ll x=0,f=1;char ch=getchar();
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
-	return x*f;	
-}
-void add(int x,int y,int z,int kl)
-{
-    ne[++num]=fi[x];    
-    fi[x]=num;    
-    to[num]=y;   
-    w[num]=z;
-    pl[num]=kl; 
-}
-bool spfa()
-{ 
-    for(int i=S;i&lt;=T;i++)dst[i]=INF; 
-    memset(vis,0,sizeof(vis));  
-    q.push(S),dst[S]=0;	
-	incf[S]=1&lt;&lt;30,vis[S]=true;   
-    while(!q.empty())
-    {      
-        int x=q.front();      
-        vis[x]=false;q.pop();        
-        for(int i=fi[x];i;i=ne[i])
-        {            
-            int ver=to[i];             
-            if(dst[ver]&gt;dst[x]+pl[i]&amp;&amp;w[i])
-            {                
-                dst[ver]=dst[x]+pl[i];                
-                incf[ver]=min(incf[x],w[i]);                
-                P[ver]=i;                
-                if(!vis[ver])vis[ver]=true,q.push(ver);                 
-            }             
-        }    
-    }
-    return dst[T]!=INF;  
-}
-void update()
-{	
-	int x=T;     
-    while(x!=S)
-    {         
-        int i=P[x];         
-        w[i]-=incf[T];       
-        w[i^1]+=incf[T];
-   
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-bool spfa_d()
-{
-    for(int i=S;i&lt;=T;i++)dst[i]=-INF;
-    q.push(S),dst[S]=0;incf[S]=1&lt;&lt;30;
-    while(!q.empty())
-    {
-        int x=q.front();
-        vis[x]=false;q.pop();
-        for(int i=fi[x];i;i=ne[i])
-        {
-            int ver=to[i];
-            if(dst[ver]&lt;dst[x]+pl[i]&amp;&amp;w[i])
-            {
-                dst[ver]=dst[x]+pl[i];
-                incf[ver]=min(incf[x],w[i]);
-                P[ver]=i;
-                if(!vis[ver])vis[ver]=true,q.push(ver);
-            }
-        }
-    }
-    return dst[T]!=-INF;
-}
-void update_d()
-{
-	int x=T;
-    while(x!=S)
-    {
-        int i=P[x];
-        w[i]-=incf[T];
-        w[i^1]+=incf[T];
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-void add_x(int x,int y,int z,int kl)
-{
-	add(x,y,z,kl);
-	add(y,x,0,-kl);
-}
-int main()
-{
-	//freopen(&quot;.in&quot;,&quot;r&quot;,stdin);
-	//freopen(&quot;.out&quot;,&quot;w&quot;,stdout);
-	FindMaxN();
-	n=read();S=0,T=n*2+1;
-	for(int i=1;i&lt;=n;i++)
-	{
-		for(int j=1;j&lt;=n;j++)
-		{
-			int x=read();
-			add_x(i,j+n,1,x);
-		}
-	}
-	for(int i=1;i&lt;=n;i++)add_x(S,i,1,0),add_x(i+n,T,1,0);
-	while(spfa())update();
-	printf(&quot;%d\n&quot;,ans);
-	ans=0;
-	for(int i=2;i&lt;=num;i+=2)w[i]+=w[i^1],w[i^1]=0;
-	while(spfa_d())update_d();
-	printf(&quot;%d\n&quot;,ans);
-	return 0;		
-}
-//**月雩·薇嫭**
-</code></pre>
-<h3 id="by月雩薇嫭"><em><strong>by：月雩·薇嫭</strong></em></h3>
+                <p>添加图片：</p>
+<p>珂朵莉(<s>抱走</s>)树，又叫Old Driver Tree(老司机树/xyx)</p>
 
             </div>
             <hr style="width: 80%;">
@@ -707,37 +534,13 @@ int main()
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>月雩·薇嫮</li>
-            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/luo-gu-p4014fen-pei-wen-ti/</li>
+            <li><strong>原文链接：</strong>https://Pray-YueYu.github.io/post/ke-duo-li-shu-odt/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         <div id="otherpost">
             
-            <div class="prev-post-pc">
-                <div id="ppcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/';return false">
-                    
-                    <img src="https://Pray-YueYu.github.io/post-images/luo-gu-p2713luo-ma-you-xi.jpg" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">洛谷 P2713:「罗马游戏」</h4>
-                </div>
-            </div>
-            <div class="prev-post">
-                上一篇 <a href="https://Pray-YueYu.github.io/post/luo-gu-p2713luo-ma-you-xi/">洛谷 P2713:「罗马游戏」</a>
-            </div>
-            
-            
-            <div class="next-post-pc">
-                <div id="npcontainer" onclick="window.location.href= 'https://Pray-YueYu.github.io/post/about/';return false">
-                    
-                    <img src="https://Pray-YueYu.github.io/post-images/about.jpg" style="width: 100%;" class="opimg">
-                    
-                    <h4 class="optitle">致来访者---关于我与博客</h4>
-                </div>
-            </div>
-            <div class="next-post">
-                下一篇 <a href="https://Pray-YueYu.github.io/post/about/">致来访者---关于我与博客</a>
-            </div>
             
         </div>
     </div>
@@ -854,30 +657,7 @@ int main()
 </script>
         
         <div class="toc-container">
-            <ul class="markdownIt-TOC">
-<li>
-<ul>
-<li>
-<ul>
-<li><a href="#%E9%A2%98%E7%9B%AE%E6%8F%8F%E8%BF%B0">题目描述</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E6%A0%BC%E5%BC%8F">输入格式</a></li>
-<li><a href="#%E8%BE%93%E5%87%BA%E6%A0%BC%E5%BC%8F">输出格式</a></li>
-<li><a href="#%E8%BE%93%E5%85%A5%E8%BE%93%E5%87%BA%E6%A0%B7%E4%BE%8B">输入输出样例</a>
-<ul>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%85%A5">样例输入</a></li>
-<li><a href="#%E6%A0%B7%E4%BE%8B%E8%BE%93%E5%87%BA">样例输出</a></li>
-</ul>
-</li>
-<li><a href="#%E8%AF%B4%E6%98%8E%E6%8F%90%E7%A4%BA">说明/提示</a></li>
-<li><a href="#%E5%BB%BA%E5%9B%BE">建图</a></li>
-<li><a href="#%E5%81%9A%E6%B3%95">做法</a></li>
-<li><a href="#by%E6%9C%88%E9%9B%A9%E8%96%87%E5%AB%AD"><em><strong>by：月雩·薇嫭</strong></em></a></li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-
+            
     </div>
     </div>
     </div>
@@ -1115,7 +895,7 @@ int main()
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "洛谷 P4014:「分配问题」",
+                    title: "珂朵莉树(ODT)",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {
