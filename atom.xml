@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-09T07:21:43.153Z</updated>
+    <updated>2020-11-09T08:03:12.085Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -77,7 +77,7 @@ int main()
 <p>2.书包、笔与水</p>
 <p>3.<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mstyle mathcolor="red"><mi mathvariant="normal">电</mi><mi mathvariant="normal">脑</mi></mstyle></mrow><annotation encoding="application/x-tex">\color{red} 电脑</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0em;vertical-align:0em;"></span><span class="mord cjk_fallback" style="color:red;">电</span><span class="mord cjk_fallback" style="color:red;">脑</span></span></span></span></p>
 <p>在南开吃了顿饭，睡了会儿午觉，就准备进入考场了</p>
-<h3 id="t1儒略日">T1：儒略日</h3>
+<h3 id="t1儒略日大佬的题解">T1：<a href="https://www.cnblogs.com/luckyblock/p/13945486.html#a">儒略日</a>(大佬的题解)</h3>
 <p>将一系列准备工作做好后，我打开题面，看了看第一题</p>
 <p>这是一道模拟？不对，数据范围怎么这么大啊！</p>
 <p>再仔细看了看题目，woc，怎么规则这么多！</p>
@@ -89,7 +89,7 @@ int main()
 <p>是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>T</mi><mn>1</mn></mrow><annotation encoding="application/x-tex">T1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">T</span><span class="mord">1</span></span></span></span>好吧！</p>
 <p>5分钟看完题，5分钟写完代码，5分钟调试完。</p>
 <p>但是还是有一种特例没考虑进来，害</p>
-<h3 id="t3函数调用">T3：函数调用</h3>
+<h3 id="t3函数调用">T3：<a href="https://www.cnblogs.com/luckyblock/p/13945486.html#c">函数调用</a></h3>
 <p>暴力完事</p>
 <p>但是为什么写挂了啊</p>
 <h3 id="t4贪吃蛇">T4：贪吃蛇</h3>
@@ -1052,6 +1052,60 @@ int main()
 </code></pre>
 <h1 id="愿有缘人三羊开泰有情人终成眷属">愿，有缘人三羊开泰，有情人终成眷属！</h1>
 <figure data-type="image" tabindex="1"><img src="https://pray-yueyu.github.io/post-images/1598466334843.jpg" alt="" loading="lazy"></figure>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[CSPs-2019·爆零游记]]></title>
+        <id>https://pray-yueyu.github.io/post/cspsbao-ling-you-ji/</id>
+        <link href="https://pray-yueyu.github.io/post/cspsbao-ling-you-ji/">
+        </link>
+        <updated>2019-11-20T07:43:38.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="day_0">Day_0</h2>
+<h3 id="11月15日某中学机房内">11月15日某中学机房内</h3>
+<p><s>P导正看向!(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>Q</mi><mi>H</mi><mi>Y</mi></mrow><annotation encoding="application/x-tex">QHY</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">Q</span><span class="mord mathdefault" style="margin-right:0.08125em;">H</span><span class="mord mathdefault" style="margin-right:0.22222em;">Y</span></span></span></span>)的所有人，心里默念道：<strong>你们一定会AK的</strong>！</s></p>
+<p>抵达目的地--巴蜀 校旁IU酒店(马上就会是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>O</mi><mi>I</mi><mi>e</mi><mi>r</mi><mi>s</mi></mrow><annotation encoding="application/x-tex">OIers</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02778em;">O</span><span class="mord mathdefault" style="margin-right:0.07847em;">I</span><span class="mord mathdefault">e</span><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="mord mathdefault">s</span></span></span></span> 酒店了)</p>
+<p>到了巴蜀去(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>w</mi><mi>a</mi><mi>n</mi></mrow><annotation encoding="application/x-tex">wan</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.02691em;">w</span><span class="mord mathdefault">a</span><span class="mord mathdefault">n</span></span></span></span>)试(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>y</mi><mi>o</mi><mi>u</mi></mrow><annotation encoding="application/x-tex">you</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="mord mathdefault">o</span><span class="mord mathdefault">u</span></span></span></span>)机(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mi>i</mi></mrow><annotation encoding="application/x-tex">xi</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mord mathdefault">i</span></span></span></span>)，说真的，电脑<s>太烂了</s>。</p>
+<h2 id="day_1">Day_1</h2>
+<p>第二天游行开始咯~真开心(<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>f</mi><mi>A</mi><mi>K</mi><mi>e</mi></mrow><annotation encoding="application/x-tex">fAKe</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.10764em;">f</span><span class="mord mathdefault">A</span><span class="mord mathdefault" style="margin-right:0.07153em;">K</span><span class="mord mathdefault">e</span></span></span></span>)</p>
+<p><strong>T1</strong></p>
+<p>刚把题目读完的我，正准备操作鼠标进入<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>c</mi><mo>+</mo><mo>+</mo></mrow><annotation encoding="application/x-tex">c++</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord mathdefault">c</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">+</span></span></span></span>敲代码，竟然发现鼠标移动不了了！</p>
+<p>使劲地盯着电脑看了好大半天，我以为是我老眼昏花了，结果还真是死机了！</p>
+<p>woc！你能想象在凳子上坐了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn><mi>h</mi><mn>39</mn><mi>m</mi><mi>i</mi><mi>n</mi></mrow><annotation encoding="application/x-tex">1h39min</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord mathdefault">h</span><span class="mord">3</span><span class="mord">9</span><span class="mord mathdefault">m</span><span class="mord mathdefault">i</span><span class="mord mathdefault">n</span></span></span></span>却什么也不能做的感受吗。。。</p>
+<p>不过最后延时了，还发了个小面包(全国只有我们这儿有？)</p>
+<p>第一题就暴力算嘛，<strong>注意要开ull</strong></p>
+<p>得分：</p>
+<pre><code>期望：100
+
+实际：80
+</code></pre>
+<p><strong>T2</strong></p>
+<p>括号树，<s>嗯，好像做过？</s></p>
+<p><s>想了一会儿，不会，暴力完事</s></p>
+<p>得分：30</p>
+<p><strong>T3</strong></p>
+<p>啊这~</p>
+<p><s>拜拜了您嘞</s></p>
+<p>得分：0</p>
+<h2 id="day_2">Day_2</h2>
+<p><strong>T1</strong></p>
+<p>whaterful？ 这只是T1?!</p>
+<p>怎么一上来就尼玛这么毒瘤啊！</p>
+<p>乱搞骗分。</p>
+<p>期望：16</p>
+<p>彻底崩溃</p>
+<p><strong>T2</strong></p>
+<p>打开题面看了看，放弃吧</p>
+<p>再看了看，咦，好像可做！</p>
+<p>最后想了想，推了个柿子</p>
+<p>期望：88</p>
+<p>实际：64</p>
+<p><strong>T3</strong></p>
+<p>看不懂啊啊啊啊</p>
+<p>乱搞吧</p>
+<p>期望：0</p>
+<h1 id="总结"><strong>总结</strong></h1>
+<p>写挂了一些地方，时间分配不是特别合理(<strong><s>太弱了</s></strong>)</p>
+<p><strong>真·AFO</strong></p>
 ]]></content>
     </entry>
 </feed>
