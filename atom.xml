@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-11T09:21:13.007Z</updated>
+    <updated>2020-11-12T10:55:18.847Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -10,6 +10,94 @@
     <logo>https://pray-yueyu.github.io/images/avatar.png</logo>
     <icon>https://pray-yueyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 月雩の小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[蓝书·目录]]></title>
+        <id>https://pray-yueyu.github.io/post/lan-shu-mu-lu/</id>
+        <link href="https://pray-yueyu.github.io/post/lan-shu-mu-lu/">
+        </link>
+        <updated>2020-11-11T13:01:38.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="0x00-基本算法">0x00 基本算法</h2>
+<h4 id="0x01-位运算">0x01 <a href="https://www.luogu.com.cn/problem/list?tag=314&amp;page=1">位运算</a></h4>
+<h4 id="0x02-递推与递归">0x02 <a href="https://www.luogu.com.cn/problem/list?tag=12&amp;page=1">递推</a>与<a href="https://www.luogu.com.cn/problem/list?tag=54&amp;page=1">递归</a></h4>
+<h4 id="0x03-前缀和与差分">0x03 <a href="https://www.luogu.com.cn/problem/list?tag=254&amp;page=1">前缀和</a>与<a href="https://www.luogu.com.cn/problem/list?tag=330&amp;page=1">差分</a></h4>
+<h4 id="0x04-二分整数二分-分数二分-三分">0x04 <a href="https://www.luogu.com.cn/problem/list?tag=45,125&amp;page=1">二分</a>(整数二分、分数二分、三分)</h4>
+<h4 id="0x05-排序离散化-中位数">0x05 <a href="https://www.luogu.com.cn/problem/list?tag=113&amp;page=1">排序</a>(离散化、中位数)</h4>
+<h4 id="0x06-倍增st算法">0x06 <a href="https://www.luogu.com.cn/problem/list?tag=43&amp;page=1">倍增</a>(ST算法)</h4>
+<h4 id="0x07-贪心">0x07 <a href="https://www.luogu.com.cn/problem/list?tag=7&amp;page=1">贪心</a></h4>
+<h4 id="0x08-总结与练习">0x08 总结与练习</h4>
+<h2 id="0x10-基本数据结构">0x10 基本数据结构</h2>
+<h4 id="0x11-栈">0x11 栈</h4>
+<h4 id="0x12-队列">0x12 队列</h4>
+<h4 id="0x13-链表与邻接表">0x13 链表与邻接表</h4>
+<h4 id="0x14-hash">0x14 Hash</h4>
+<h4 id="0x15-字符串">0x15 字符串</h4>
+<h4 id="0x16-trie">0x16 Trie</h4>
+<h4 id="0x17-二叉堆">0x17 二叉堆</h4>
+<h4 id="0x18-总结与练习">0x18 总结与练习</h4>
+<h2 id="0x20-搜索">0x20 搜索</h2>
+<h4 id="0x21-树与图的遍历">0x21 树与图的遍历</h4>
+<h4 id="0x22-深度优先遍历">0x22 深度优先遍历</h4>
+<h4 id="0x23-剪枝">0x23 剪枝</h4>
+<h4 id="0x24-迭代加深">0x24 迭代加深</h4>
+<h4 id="0x25-广度优先队列">0x25 广度优先队列</h4>
+<h4 id="0x26-广搜变形">0x26 广搜变形</h4>
+<h4 id="0x27-a">0x27 A*</h4>
+<h4 id="0x28-ida">0x28 IDA*</h4>
+<h4 id="0x29-总结与练习">0x29 总结与练习</h4>
+<h2 id="0x30-数学知识">0x30 数学知识</h2>
+<h4 id="0x31-质数">0x31 质数</h4>
+<h4 id="0x32-约数">0x32 约数</h4>
+<h4 id="0x33-同余">0x33 同余</h4>
+<h4 id="0x34-矩阵乘法">0x34 矩阵乘法</h4>
+<h4 id="0x35-高斯消元与线性空间">0x35 高斯消元与线性空间</h4>
+<h4 id="0x36-组合计数">0x36 组合计数</h4>
+<h4 id="0x37-容斥原理与mobius-函数">0x37 容斥原理与Mobius 函数</h4>
+<h4 id="0x38-概率与数学期望">0x38 概率与数学期望</h4>
+<h4 id="0x39-01分数规划">0x39 0/1分数规划</h4>
+<h4 id="0x3a-博弈论与sg函数">0x3A 博弈论与SG函数</h4>
+<h4 id="0x3b-总结与练习">0x3B 总结与练习</h4>
+<h2 id="0x40-数据结构进阶">0x40 数据结构进阶</h2>
+<h4 id="0x41-并查集">0x41 并查集</h4>
+<h4 id="0x42-树状数组">0x42 树状数组</h4>
+<h4 id="0x43-线段树">0x43 线段树</h4>
+<h4 id="0x44-分块">0x44 分块</h4>
+<h4 id="0x45-点分治">0x45 点分治</h4>
+<h4 id="0x46-二叉查找树与平衡树初步">0x46 二叉查找树与平衡树初步</h4>
+<h4 id="0x47-离线分治算法">0x47 离线分治算法</h4>
+<h4 id="0x48-可持久化数据结构">0x48 可持久化数据结构</h4>
+<h4 id="0x49-总结与练习">0x49 总结与练习</h4>
+<h2 id="0x50-动态规划">0x50 动态规划</h2>
+<h4 id="0x51-线性dp">0x51 线性DP</h4>
+<h4 id="0x52-背包">0x52 背包</h4>
+<h4 id="0x53-区间dp">0x53 区间DP</h4>
+<h4 id="0x54-树形dp">0x54 树形DP</h4>
+<h4 id="0x55-环形与后效性处理">0x55 环形与后效性处理</h4>
+<h4 id="0x56-状态压缩dp">0x56 状态压缩DP</h4>
+<h4 id="0x57-倍增优化dp">0x57 倍增优化DP</h4>
+<h4 id="0x58-数据结构优化dp">0x58 数据结构优化DP</h4>
+<h4 id="0x59-单调队列优化dp">0x59 单调队列优化DP</h4>
+<h4 id="0x5a-斜率优化">0x5A 斜率优化</h4>
+<h4 id="0x5b-四边形不等式">0x5B 四边形不等式</h4>
+<h4 id="0x5c-计数类dp">0x5C 计数类DP</h4>
+<h4 id="0x5e-总结与练习">0x5E  总结与练习</h4>
+<h2 id="0x60-图论">0x60 图论</h2>
+<h4 id="0x61-最短路">0x61 最短路</h4>
+<h4 id="0x62-最小生成树">0x62 最小生成树</h4>
+<h4 id="0x63-树的直径与最近公共祖先">0x63 树的直径与最近公共祖先</h4>
+<h4 id="0x64-基环树">0x64 基环树</h4>
+<h4 id="0x65-负环与差分约束">0x65 负环与差分约束</h4>
+<h4 id="0x66-tarjan算法与无向图连通性">0x66 Tarjan算法与无向图连通性</h4>
+<h4 id="0x67-tarjan算法与有向图连通性">0x67 Tarjan算法与有向图连通性</h4>
+<h4 id="0x68-二分图的匹配">0x68 二分图的匹配</h4>
+<h4 id="0x69-二分图的覆盖与独立集">0x69 二分图的覆盖与独立集</h4>
+<h4 id="0x6a-网络流初步">0x6A 网络流初步</h4>
+<h4 id="0x6b-综合与练习">0x6B 综合与练习</h4>
+<h2 id="0x70-综合技巧与实践">0x70 综合技巧与实践</h2>
+<h4 id="0x71-c-stl">0x71 C++ STL</h4>
+<h4 id="0x72-随机数据生成与对拍">0x72 随机数据生成与对拍</h4>
+<h2 id="0x7f-附录">0x7F 附录</h2>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[测试总结(2020·NOIP前)]]></title>
         <id>https://pray-yueyu.github.io/post/ce-shi-zong-jie-2020noip-qian/</id>
@@ -27,59 +115,81 @@
  width:170pt">
  <col width="221" style="mso-width-source:userset;mso-width-alt:7072;width:166pt">
  </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" class="xl1526427" width="74" style="height:14.25pt;width:56pt">日期</td>
-  <td class="xl1526427" width="72" style="width:54pt">预估得分</td>
-  <td class="xl1526427" width="72" style="width:54pt">实际得分</td>
-  <td class="xl6326427" width="216" style="width:162pt">T1总结</td>
-  <td class="xl6326427" width="215" style="width:161pt">T2总结</td>
-  <td class="xl6326427" width="226" style="width:170pt">T3总结</td>
-  <td class="xl6326427" width="226" style="width:170pt">T4总结</td>
-  <td class="xl1526427" width="221" style="width:166pt">其他总结（比如整体策略）</td>
+  <td height="19" class="xl1512323" width="74" style="height:14.25pt;width:56pt">日期</td>
+  <td class="xl1512323" width="72" style="width:54pt">预估得分</td>
+  <td class="xl1512323" width="72" style="width:54pt">实际得分</td>
+  <td class="xl6312323" width="216" style="width:162pt">T1总结</td>
+  <td class="xl6312323" width="215" style="width:161pt">T2总结</td>
+  <td class="xl6312323" width="226" style="width:170pt">T3总结</td>
+  <td class="xl6312323" width="226" style="width:170pt">T4总结</td>
+  <td class="xl1512323" width="221" style="width:166pt">其他总结（比如整体策略）</td>
  </tr>
  <tr height="114" style="height:85.5pt">
-  <td height="114" class="xl6526427" style="height:85.5pt">11月10日</td>
-  <td class="xl1526427" align="right">80</td>
-  <td class="xl1526427" align="right">20</td>
-  <td class="xl6426427" width="216" style="width:162pt">我的想法：没想<br></br>
+  <td height="114" class="xl6512323" style="height:85.5pt">11月10日</td>
+  <td class="xl1512323" align="right">80</td>
+  <td class="xl1512323" align="right">20</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：没想<br></br>
     正解：并查集<br></br>
     我的失误：无<br></br>
     所花时间：15min（乱想）</td>
-  <td class="xl6426427" width="215" style="width:161pt">我的想法：n&lt;=4打表<br></br>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：n&lt;=4打表<br></br>
     正解：构造<br></br>
     我的失误：捆绑测试，表没打完<br></br>
     所花时间：2h+15min</td>
-  <td class="xl6426427" width="226" style="width:170pt">我的想法：暴力枚举<br></br>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力枚举<br></br>
     正解：规律。。。<br></br>
     我的失误：特殊情况没判断<br></br>
     所花时间：30min</td>
-  <td class="xl6426427" width="226" style="width:170pt">我的想法：类似于Trie的不知道是什么东西的东西<br></br>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：类似于Trie的不知道是什么东西的东西<br></br>
     正解：可持久化线段树、Hash、LCP<br></br>
     我的失误：想法错误<br></br>
     所花时间：58min</td>
-  <td class="xl1526427"><span style="mso-spacerun:yes">&nbsp;</span>T1没做是个错误的决定</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>T1没做是个错误的决定</td>
  </tr>
  <tr height="76" style="height:57.0pt">
-  <td height="76" class="xl6626427" style="height:57.0pt">11月11日</td>
-  <td class="xl1526427" align="right">20</td>
-  <td class="xl1526427" align="right">20</td>
-  <td class="xl6426427" width="216" style="width:162pt">我的想法：暴力<br></br>
-    正解：数学证明结论题<br>
-    我的失误：无(时间把握)<br>
+  <td height="76" class="xl6612323" style="height:57.0pt">11月11日</td>
+  <td class="xl1512323" align="right">20</td>
+  <td class="xl1512323" align="right">20</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：暴力<br></br>
+    正解：数学证明结论题<br></br>
+    我的失误：无(时间把握)<br></br>
     所花时间：0.5h</td>
-  <td class="xl6426427" width="215" style="width:161pt">我的想法：无<br></br>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：无<br></br>
     正解：计数<br></br>
     我的失误：无<br></br>
     所花时间：0</td>
-  <td class="xl6426427" width="226" style="width:170pt">我的想法：无<br></br>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：无<br></br>
     正解：没有特别地懂<br></br>
     我的失误：无<br></br>
     所花时间：0</td>
-  <td class="xl6426427" width="226" style="width:170pt">我的想法：一个一个地找<br></br>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：一个一个地找<br></br>
     正解：倍增<br></br>
     我的失误：不知道怎么使用函数<br></br>
     所花时间：3h</td>
-  <td class="xl6426427" width="221" style="width:166pt">1.电脑坏了0.5h<br></br>
+  <td class="xl6412323" width="221" style="width:166pt">1.电脑坏了0.5h<br></br>
     2.看到有交互题就直接去做了，但是看不懂啊啊</td>
+ </tr>
+ <tr height="95" style="height:71.25pt">
+  <td height="95" class="xl6612323" style="height:71.25pt">11月12日</td>
+  <td class="xl1512323" align="right">200</td>
+  <td class="xl1512323" align="right">170</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：规律<br></br>
+    正解：数学证明结论题<br></br>
+    我的失误：无<br></br>
+    所花时间：0.5h</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：单调队列<br></br>
+    正解：单调队列<br></br>
+    我的失误：细节出锅&amp;没想到最优解<br></br>
+    所花时间：2.9h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：拿部分分<br></br>
+    正解：建图+最短路<br>
+    我的失误：时间太少，不够想<br>
+    所花时间：0.6h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：我要爆炸了<br></br>
+    我的失误：没打<br></br>
+    所花时间：0</td>
+  <td class="xl6412323" width="221" style="width:166pt">第二题花的时间太长了</td>
  </tr>
  <!--[if supportMisalignedColumns]-->
  <tr height="0" style="display:none">
@@ -985,183 +1095,6 @@ int main()
 <h3 id="题外左偏树有什么用">题外：<s>左偏树有什么用</s></h3>
 <h4 id="还有就是晚上肝题是真的爽">还有就是，<s>晚上肝题是真的爽</s></h4>
 <h4 id="by月雩薇嫭-202085-016"><em><strong>by：月雩·薇嫭</strong></em> ,2020.8.5  0:16</h4>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[洛谷 P4014:「分配问题」]]></title>
-        <id>https://pray-yueyu.github.io/post/luo-gu-p4014fen-pei-wen-ti/</id>
-        <link href="https://pray-yueyu.github.io/post/luo-gu-p4014fen-pei-wen-ti/">
-        </link>
-        <updated>2020-08-26T17:06:56.000Z</updated>
-        <content type="html"><![CDATA[<p><a href="https://www.luogu.com.cn/problem/P4014">题目链接</a></p>
-<h3 id="题目描述">题目描述</h3>
-<p>有n件工作要分配给n个人做.第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.试设计一个将n件工作分配给n个人做的分配方案,使产生的总效益最大.</p>
-<h3 id="输入格式">输入格式</h3>
-<p>文件的第1行有1个正整数n,表示有n件工作要分配给n个人做.<br>
-接下来的n行中,每行有n个整数 <span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>,表示第i个人做第j件工作产生的效益为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{ij}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>.</p>
-<h3 id="输出格式">输出格式</h3>
-<p>两行分别输出最小总效益和最大总效益。</p>
-<h3 id="输入输出样例">输入输出样例</h3>
-<h4 id="样例输入">样例输入</h4>
-<pre><code>5
-2 2 2 1 2
-2 3 1 2 4
-2 0 1 1 1
-2 3 4 3 3
-3 2 1 2 1
-</code></pre>
-<h4 id="样例输出">样例输出</h4>
-<pre><code>5
-14
-</code></pre>
-<h3 id="说明提示">说明/提示</h3>
-<p>1<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo></mrow><annotation encoding="application/x-tex">\le</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span></span></span></span>n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>≤</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">\le100</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7719400000000001em;vertical-align:-0.13597em;"></span><span class="mrel">≤</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span><span class="mord">0</span><span class="mord">0</span></span></span></span><br>
-<strong>一个人只能修一个工件</strong></p>
-<p>这是一道<strong>费用流经典题目</strong></p>
-<h3 id="建图">建图</h3>
-<ul>
-<li><strong>1.<strong>设</strong>0</strong>为<strong>超级源点</strong>，<strong>2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n+1</strong>为<strong>超级汇点</strong>，第<strong>i</strong>个人的节点为<strong>i</strong>，第<strong>j</strong>件工作节点为<strong>j+n</strong></li>
-<li><strong>2.<strong>从</strong>超级源点</strong> 向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[1,n]连接一条容量为1，费用为0的边</li>
-<li><strong>3.<strong>从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span>[n+1,2<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span>n]向</strong>超级汇点</strong>连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>的边</li>
-<li><strong>4</strong>.从<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>i<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [1, n]向<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi mathvariant="normal">∀</mi></mrow><annotation encoding="application/x-tex">\forall</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord">∀</span></span></span></span>j<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>∈</mo></mrow><annotation encoding="application/x-tex">\in</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">∈</span></span></span></span> [n+1,n<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mo>×</mo></mrow><annotation encoding="application/x-tex">\times</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.66666em;vertical-align:-0.08333em;"></span><span class="mord">×</span></span></span></span> 2]，连接一条容量为1，费用为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>C</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi></mrow></msub></mrow><annotation encoding="application/x-tex">C_{i, j}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.969438em;vertical-align:-0.286108em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.07153em;">C</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:-0.07153em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>的边</li>
-</ul>
-<h3 id="做法">做法</h3>
-<p>跑一遍<strong>最小费用最大流</strong>&amp;<strong>最大费用最小流</strong>，然后再分别输出最<strong>小</strong>值与最<strong>大</strong>值<br>
-(<strong>温馨提醒：一定要输出，不然会WA！</strong>)</p>
-<p><strong>为各位大佬献上我丑陋的代码~</strong></p>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define FQ(i,a,b) for(register int i=a;i&lt;=b;i++)
-#define prf printf
-#define scf scanf
-#define ll long long
-using namespace std;
-const int N=5e4+10;
-int INF,n,num=1,ne[N],fi[N],to[N],w[N],pl[N],S,T;
-int dst[N],incf[N],P[N],vis[N],ans;
-queue&lt;int&gt; q;
-void FindMaxN()
-{
-	int fINDmAXn[1];
-	memset(fINDmAXn,128/2,sizeof(fINDmAXn));	
-	INF=fINDmAXn[0];
-}
-ll read()
-{
-	ll x=0,f=1;char ch=getchar();
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
-	return x*f;	
-}
-void add(int x,int y,int z,int kl)
-{
-    ne[++num]=fi[x];    
-    fi[x]=num;    
-    to[num]=y;   
-    w[num]=z;
-    pl[num]=kl; 
-}
-bool spfa()
-{ 
-    for(int i=S;i&lt;=T;i++)dst[i]=INF; 
-    memset(vis,0,sizeof(vis));  
-    q.push(S),dst[S]=0;	
-	incf[S]=1&lt;&lt;30,vis[S]=true;   
-    while(!q.empty())
-    {      
-        int x=q.front();      
-        vis[x]=false;q.pop();        
-        for(int i=fi[x];i;i=ne[i])
-        {            
-            int ver=to[i];             
-            if(dst[ver]&gt;dst[x]+pl[i]&amp;&amp;w[i])
-            {                
-                dst[ver]=dst[x]+pl[i];                
-                incf[ver]=min(incf[x],w[i]);                
-                P[ver]=i;                
-                if(!vis[ver])vis[ver]=true,q.push(ver);                 
-            }             
-        }    
-    }
-    return dst[T]!=INF;  
-}
-void update()
-{	
-	int x=T;     
-    while(x!=S)
-    {         
-        int i=P[x];         
-        w[i]-=incf[T];       
-        w[i^1]+=incf[T];
-   
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-bool spfa_d()
-{
-    for(int i=S;i&lt;=T;i++)dst[i]=-INF;
-    q.push(S),dst[S]=0;incf[S]=1&lt;&lt;30;
-    while(!q.empty())
-    {
-        int x=q.front();
-        vis[x]=false;q.pop();
-        for(int i=fi[x];i;i=ne[i])
-        {
-            int ver=to[i];
-            if(dst[ver]&lt;dst[x]+pl[i]&amp;&amp;w[i])
-            {
-                dst[ver]=dst[x]+pl[i];
-                incf[ver]=min(incf[x],w[i]);
-                P[ver]=i;
-                if(!vis[ver])vis[ver]=true,q.push(ver);
-            }
-        }
-    }
-    return dst[T]!=-INF;
-}
-void update_d()
-{
-	int x=T;
-    while(x!=S)
-    {
-        int i=P[x];
-        w[i]-=incf[T];
-        w[i^1]+=incf[T];
-        x=to[i^1];
-    }
-    ans+=dst[T]*incf[T];
-}
-void add_x(int x,int y,int z,int kl)
-{
-	add(x,y,z,kl);
-	add(y,x,0,-kl);
-}
-int main()
-{
-	//freopen(&quot;.in&quot;,&quot;r&quot;,stdin);
-	//freopen(&quot;.out&quot;,&quot;w&quot;,stdout);
-	FindMaxN();
-	n=read();S=0,T=n*2+1;
-	for(int i=1;i&lt;=n;i++)
-	{
-		for(int j=1;j&lt;=n;j++)
-		{
-			int x=read();
-			add_x(i,j+n,1,x);
-		}
-	}
-	for(int i=1;i&lt;=n;i++)add_x(S,i,1,0),add_x(i+n,T,1,0);
-	while(spfa())update();
-	printf(&quot;%d\n&quot;,ans);
-	ans=0;
-	for(int i=2;i&lt;=num;i+=2)w[i]+=w[i^1],w[i^1]=0;
-	while(spfa_d())update_d();
-	printf(&quot;%d\n&quot;,ans);
-	return 0;		
-}
-//**月雩·薇嫭**
-</code></pre>
-<h3 id="by月雩薇嫭"><em><strong>by：月雩·薇嫭</strong></em></h3>
 ]]></content>
     </entry>
 </feed>

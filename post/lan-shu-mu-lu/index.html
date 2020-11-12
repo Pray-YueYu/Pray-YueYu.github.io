@@ -1,17 +1,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="潮连汐静处，半影携残烛。
-淡得闲沉月，春江黯花浮。
-东阁微起意，笑问青马途。
-惊雷破亡羽，轻鸿伴我俗。
-月斗山南北，风兮罔迷除。
-深林隐旧庄，静与星为夫。
-独坐亭阁前，乱声静入孤。
-幽火明清池，自诩万卷书。
-小楼摇风雨，取酒芳自酌。
-阴间满..." />
-    <meta name="keywords" content="诗" />
+    <meta name="description" content="0x00 基本算法
+0x01 位运算
+0x02 递推与递归
+0x03 前缀和与差分
+0x04 二分(整数二分、分数二分、三分)
+0x05 排序(离散化、中位数)
+0x06 倍增(ST算法)
+0x07 贪心
+0x08 总结与练习
+0x10 基..." />
+    <meta name="keywords" content="算法" />
     <link rel="stylesheet" href="https://pray-yueyu.github.io/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pray-yueyu.github.io/styles/main.css">
     
@@ -497,15 +497,15 @@
         <div class="postshow" style="padding-bottom: 0;">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
-                <img src="https://pray-yueyu.github.io/post-images/huan.jpg" class="postimage" style="cursor:auto">
+                <img src="https://pray-yueyu.github.io/post-images/lan-shu-mu-lu.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-09-08</div>
-                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 1 min read</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-11-11</div>
+                <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 2 min read</div>
                 <div class="posttag">
                     
-                    <a href="https://pray-yueyu.github.io/tag/Z5qZGgcrGo/" class="postlink">
-                        <i class="fa fa-tag"></i> 诗
+                    <a href="https://pray-yueyu.github.io/tag/cFq1l2NCo/" class="postlink">
+                        <i class="fa fa-tag"></i> 算法
                     </a>
                     
                 </div>
@@ -513,9 +513,9 @@
             
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>还·潮连汐静</h2>
+                <h2>蓝书·目录</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://pray-yueyu.github.io/post/huan/</div>
+                <div id="pl" style="display:none">https://pray-yueyu.github.io/post/lan-shu-mu-lu/</div>
                 <div id="rootaddr" style="display:none">https://pray-yueyu.github.io</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -523,22 +523,86 @@
                 </span>
             </div>
             <div class="text ">
-                <p>潮连汐静处，半影携残烛。</p>
-<p>淡得闲沉月，春江黯花浮。</p>
-<p>东阁微起意，笑问青马途。</p>
-<p>惊雷破亡羽，轻鸿伴我俗。</p>
-<p>月斗山南北，风兮罔迷除。</p>
-<p>深林隐旧庄，静与星为夫。</p>
-<p>独坐亭阁前，乱声静入孤。</p>
-<p>幽火明清池，自诩万卷书。</p>
-<p>小楼摇风雨，取酒芳自酌。</p>
-<p>阴间满秋瑟，一叶舟行独。</p>
-<p>听君取柳行，悠然似夜鸣。</p>
-<p>又闻极星向，萧萧归何处？</p>
-<p><strong>星影落九天， 鱼雁舞千弦。</strong></p>
-<p><strong>但为君沉吟，孤鸿醉尘烟。</strong></p>
-<p>无言恨长酒，对燕空积愁。</p>
-<p>莫消万古情，月色难入喉。</p>
+                <h2 id="0x00-基本算法">0x00 基本算法</h2>
+<h4 id="0x01-位运算">0x01 <a href="https://www.luogu.com.cn/problem/list?tag=314&amp;page=1">位运算</a></h4>
+<h4 id="0x02-递推与递归">0x02 <a href="https://www.luogu.com.cn/problem/list?tag=12&amp;page=1">递推</a>与<a href="https://www.luogu.com.cn/problem/list?tag=54&amp;page=1">递归</a></h4>
+<h4 id="0x03-前缀和与差分">0x03 <a href="https://www.luogu.com.cn/problem/list?tag=254&amp;page=1">前缀和</a>与<a href="https://www.luogu.com.cn/problem/list?tag=330&amp;page=1">差分</a></h4>
+<h4 id="0x04-二分整数二分-分数二分-三分">0x04 <a href="https://www.luogu.com.cn/problem/list?tag=45,125&amp;page=1">二分</a>(整数二分、分数二分、三分)</h4>
+<h4 id="0x05-排序离散化-中位数">0x05 <a href="https://www.luogu.com.cn/problem/list?tag=113&amp;page=1">排序</a>(离散化、中位数)</h4>
+<h4 id="0x06-倍增st算法">0x06 <a href="https://www.luogu.com.cn/problem/list?tag=43&amp;page=1">倍增</a>(ST算法)</h4>
+<h4 id="0x07-贪心">0x07 <a href="https://www.luogu.com.cn/problem/list?tag=7&amp;page=1">贪心</a></h4>
+<h4 id="0x08-总结与练习">0x08 总结与练习</h4>
+<h2 id="0x10-基本数据结构">0x10 基本数据结构</h2>
+<h4 id="0x11-栈">0x11 栈</h4>
+<h4 id="0x12-队列">0x12 队列</h4>
+<h4 id="0x13-链表与邻接表">0x13 链表与邻接表</h4>
+<h4 id="0x14-hash">0x14 Hash</h4>
+<h4 id="0x15-字符串">0x15 字符串</h4>
+<h4 id="0x16-trie">0x16 Trie</h4>
+<h4 id="0x17-二叉堆">0x17 二叉堆</h4>
+<h4 id="0x18-总结与练习">0x18 总结与练习</h4>
+<h2 id="0x20-搜索">0x20 搜索</h2>
+<h4 id="0x21-树与图的遍历">0x21 树与图的遍历</h4>
+<h4 id="0x22-深度优先遍历">0x22 深度优先遍历</h4>
+<h4 id="0x23-剪枝">0x23 剪枝</h4>
+<h4 id="0x24-迭代加深">0x24 迭代加深</h4>
+<h4 id="0x25-广度优先队列">0x25 广度优先队列</h4>
+<h4 id="0x26-广搜变形">0x26 广搜变形</h4>
+<h4 id="0x27-a">0x27 A*</h4>
+<h4 id="0x28-ida">0x28 IDA*</h4>
+<h4 id="0x29-总结与练习">0x29 总结与练习</h4>
+<h2 id="0x30-数学知识">0x30 数学知识</h2>
+<h4 id="0x31-质数">0x31 质数</h4>
+<h4 id="0x32-约数">0x32 约数</h4>
+<h4 id="0x33-同余">0x33 同余</h4>
+<h4 id="0x34-矩阵乘法">0x34 矩阵乘法</h4>
+<h4 id="0x35-高斯消元与线性空间">0x35 高斯消元与线性空间</h4>
+<h4 id="0x36-组合计数">0x36 组合计数</h4>
+<h4 id="0x37-容斥原理与mobius-函数">0x37 容斥原理与Mobius 函数</h4>
+<h4 id="0x38-概率与数学期望">0x38 概率与数学期望</h4>
+<h4 id="0x39-01分数规划">0x39 0/1分数规划</h4>
+<h4 id="0x3a-博弈论与sg函数">0x3A 博弈论与SG函数</h4>
+<h4 id="0x3b-总结与练习">0x3B 总结与练习</h4>
+<h2 id="0x40-数据结构进阶">0x40 数据结构进阶</h2>
+<h4 id="0x41-并查集">0x41 并查集</h4>
+<h4 id="0x42-树状数组">0x42 树状数组</h4>
+<h4 id="0x43-线段树">0x43 线段树</h4>
+<h4 id="0x44-分块">0x44 分块</h4>
+<h4 id="0x45-点分治">0x45 点分治</h4>
+<h4 id="0x46-二叉查找树与平衡树初步">0x46 二叉查找树与平衡树初步</h4>
+<h4 id="0x47-离线分治算法">0x47 离线分治算法</h4>
+<h4 id="0x48-可持久化数据结构">0x48 可持久化数据结构</h4>
+<h4 id="0x49-总结与练习">0x49 总结与练习</h4>
+<h2 id="0x50-动态规划">0x50 动态规划</h2>
+<h4 id="0x51-线性dp">0x51 线性DP</h4>
+<h4 id="0x52-背包">0x52 背包</h4>
+<h4 id="0x53-区间dp">0x53 区间DP</h4>
+<h4 id="0x54-树形dp">0x54 树形DP</h4>
+<h4 id="0x55-环形与后效性处理">0x55 环形与后效性处理</h4>
+<h4 id="0x56-状态压缩dp">0x56 状态压缩DP</h4>
+<h4 id="0x57-倍增优化dp">0x57 倍增优化DP</h4>
+<h4 id="0x58-数据结构优化dp">0x58 数据结构优化DP</h4>
+<h4 id="0x59-单调队列优化dp">0x59 单调队列优化DP</h4>
+<h4 id="0x5a-斜率优化">0x5A 斜率优化</h4>
+<h4 id="0x5b-四边形不等式">0x5B 四边形不等式</h4>
+<h4 id="0x5c-计数类dp">0x5C 计数类DP</h4>
+<h4 id="0x5e-总结与练习">0x5E  总结与练习</h4>
+<h2 id="0x60-图论">0x60 图论</h2>
+<h4 id="0x61-最短路">0x61 最短路</h4>
+<h4 id="0x62-最小生成树">0x62 最小生成树</h4>
+<h4 id="0x63-树的直径与最近公共祖先">0x63 树的直径与最近公共祖先</h4>
+<h4 id="0x64-基环树">0x64 基环树</h4>
+<h4 id="0x65-负环与差分约束">0x65 负环与差分约束</h4>
+<h4 id="0x66-tarjan算法与无向图连通性">0x66 Tarjan算法与无向图连通性</h4>
+<h4 id="0x67-tarjan算法与有向图连通性">0x67 Tarjan算法与有向图连通性</h4>
+<h4 id="0x68-二分图的匹配">0x68 二分图的匹配</h4>
+<h4 id="0x69-二分图的覆盖与独立集">0x69 二分图的覆盖与独立集</h4>
+<h4 id="0x6a-网络流初步">0x6A 网络流初步</h4>
+<h4 id="0x6b-综合与练习">0x6B 综合与练习</h4>
+<h2 id="0x70-综合技巧与实践">0x70 综合技巧与实践</h2>
+<h4 id="0x71-c-stl">0x71 C++ STL</h4>
+<h4 id="0x72-随机数据生成与对拍">0x72 随机数据生成与对拍</h4>
+<h2 id="0x7f-附录">0x7F 附录</h2>
 
             </div>
             <hr style="width: 80%;">
@@ -576,13 +640,25 @@
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>月雩·薇嫮</li>
-            <li><strong>原文链接：</strong>https://pray-yueyu.github.io/post/huan/</li>
+            <li><strong>原文链接：</strong>https://pray-yueyu.github.io/post/lan-shu-mu-lu/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
         </div>
         <div id="otherpost">
             
+            
+            <div class="next-post-pc">
+                <div id="npcontainer" onclick="window.location.href= 'https://pray-yueyu.github.io/post/ce-shi-zong-jie-2020noip-qian/';return false">
+                    
+                    <img src="https://pray-yueyu.github.io/post-images/ce-shi-zong-jie-2020noip-qian.jpg" style="width: 100%;" class="opimg">
+                    
+                    <h4 class="optitle">测试总结(2020·NOIP前)</h4>
+                </div>
+            </div>
+            <div class="next-post">
+                下一篇 <a href="https://pray-yueyu.github.io/post/ce-shi-zong-jie-2020noip-qian/">测试总结(2020·NOIP前)</a>
+            </div>
             
         </div>
     </div>
@@ -726,7 +802,125 @@
 </script>
         
         <div class="toc-container">
-            
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#0x00-%E5%9F%BA%E6%9C%AC%E7%AE%97%E6%B3%95">0x00 基本算法</a><br>
+*
+<ul>
+<li><a href="#0x01-%E4%BD%8D%E8%BF%90%E7%AE%97">0x01 位运算</a></li>
+<li><a href="#0x02-%E9%80%92%E6%8E%A8%E4%B8%8E%E9%80%92%E5%BD%92">0x02 递推与递归</a></li>
+<li><a href="#0x03-%E5%89%8D%E7%BC%80%E5%92%8C%E4%B8%8E%E5%B7%AE%E5%88%86">0x03 前缀和与差分</a></li>
+<li><a href="#0x04-%E4%BA%8C%E5%88%86%E6%95%B4%E6%95%B0%E4%BA%8C%E5%88%86-%E5%88%86%E6%95%B0%E4%BA%8C%E5%88%86-%E4%B8%89%E5%88%86">0x04 二分(整数二分、分数二分、三分)</a></li>
+<li><a href="#0x05-%E6%8E%92%E5%BA%8F%E7%A6%BB%E6%95%A3%E5%8C%96-%E4%B8%AD%E4%BD%8D%E6%95%B0">0x05 排序(离散化、中位数)</a></li>
+<li><a href="#0x06-%E5%80%8D%E5%A2%9Est%E7%AE%97%E6%B3%95">0x06 倍增(ST算法)</a></li>
+<li><a href="#0x07-%E8%B4%AA%E5%BF%83">0x07 贪心</a></li>
+<li><a href="#0x08-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x08 总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x10-%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">0x10 基本数据结构</a><br>
+*
+<ul>
+<li><a href="#0x11-%E6%A0%88">0x11 栈</a></li>
+<li><a href="#0x12-%E9%98%9F%E5%88%97">0x12 队列</a></li>
+<li><a href="#0x13-%E9%93%BE%E8%A1%A8%E4%B8%8E%E9%82%BB%E6%8E%A5%E8%A1%A8">0x13 链表与邻接表</a></li>
+<li><a href="#0x14-hash">0x14 Hash</a></li>
+<li><a href="#0x15-%E5%AD%97%E7%AC%A6%E4%B8%B2">0x15 字符串</a></li>
+<li><a href="#0x16-trie">0x16 Trie</a></li>
+<li><a href="#0x17-%E4%BA%8C%E5%8F%89%E5%A0%86">0x17 二叉堆</a></li>
+<li><a href="#0x18-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x18 总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x20-%E6%90%9C%E7%B4%A2">0x20 搜索</a><br>
+*
+<ul>
+<li><a href="#0x21-%E6%A0%91%E4%B8%8E%E5%9B%BE%E7%9A%84%E9%81%8D%E5%8E%86">0x21 树与图的遍历</a></li>
+<li><a href="#0x22-%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E9%81%8D%E5%8E%86">0x22 深度优先遍历</a></li>
+<li><a href="#0x23-%E5%89%AA%E6%9E%9D">0x23 剪枝</a></li>
+<li><a href="#0x24-%E8%BF%AD%E4%BB%A3%E5%8A%A0%E6%B7%B1">0x24 迭代加深</a></li>
+<li><a href="#0x25-%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97">0x25 广度优先队列</a></li>
+<li><a href="#0x26-%E5%B9%BF%E6%90%9C%E5%8F%98%E5%BD%A2">0x26 广搜变形</a></li>
+<li><a href="#0x27-a">0x27 A*</a></li>
+<li><a href="#0x28-ida">0x28 IDA*</a></li>
+<li><a href="#0x29-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x29 总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x30-%E6%95%B0%E5%AD%A6%E7%9F%A5%E8%AF%86">0x30 数学知识</a><br>
+*
+<ul>
+<li><a href="#0x31-%E8%B4%A8%E6%95%B0">0x31 质数</a></li>
+<li><a href="#0x32-%E7%BA%A6%E6%95%B0">0x32 约数</a></li>
+<li><a href="#0x33-%E5%90%8C%E4%BD%99">0x33 同余</a></li>
+<li><a href="#0x34-%E7%9F%A9%E9%98%B5%E4%B9%98%E6%B3%95">0x34 矩阵乘法</a></li>
+<li><a href="#0x35-%E9%AB%98%E6%96%AF%E6%B6%88%E5%85%83%E4%B8%8E%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4">0x35 高斯消元与线性空间</a></li>
+<li><a href="#0x36-%E7%BB%84%E5%90%88%E8%AE%A1%E6%95%B0">0x36 组合计数</a></li>
+<li><a href="#0x37-%E5%AE%B9%E6%96%A5%E5%8E%9F%E7%90%86%E4%B8%8Emobius-%E5%87%BD%E6%95%B0">0x37 容斥原理与Mobius 函数</a></li>
+<li><a href="#0x38-%E6%A6%82%E7%8E%87%E4%B8%8E%E6%95%B0%E5%AD%A6%E6%9C%9F%E6%9C%9B">0x38 概率与数学期望</a></li>
+<li><a href="#0x39-01%E5%88%86%E6%95%B0%E8%A7%84%E5%88%92">0x39 0/1分数规划</a></li>
+<li><a href="#0x3a-%E5%8D%9A%E5%BC%88%E8%AE%BA%E4%B8%8Esg%E5%87%BD%E6%95%B0">0x3A 博弈论与SG函数</a></li>
+<li><a href="#0x3b-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x3B 总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x40-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E8%BF%9B%E9%98%B6">0x40 数据结构进阶</a><br>
+*
+<ul>
+<li><a href="#0x41-%E5%B9%B6%E6%9F%A5%E9%9B%86">0x41 并查集</a></li>
+<li><a href="#0x42-%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84">0x42 树状数组</a></li>
+<li><a href="#0x43-%E7%BA%BF%E6%AE%B5%E6%A0%91">0x43 线段树</a></li>
+<li><a href="#0x44-%E5%88%86%E5%9D%97">0x44 分块</a></li>
+<li><a href="#0x45-%E7%82%B9%E5%88%86%E6%B2%BB">0x45 点分治</a></li>
+<li><a href="#0x46-%E4%BA%8C%E5%8F%89%E6%9F%A5%E6%89%BE%E6%A0%91%E4%B8%8E%E5%B9%B3%E8%A1%A1%E6%A0%91%E5%88%9D%E6%AD%A5">0x46 二叉查找树与平衡树初步</a></li>
+<li><a href="#0x47-%E7%A6%BB%E7%BA%BF%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95">0x47 离线分治算法</a></li>
+<li><a href="#0x48-%E5%8F%AF%E6%8C%81%E4%B9%85%E5%8C%96%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84">0x48 可持久化数据结构</a></li>
+<li><a href="#0x49-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x49 总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x50-%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92">0x50 动态规划</a><br>
+*
+<ul>
+<li><a href="#0x51-%E7%BA%BF%E6%80%A7dp">0x51 线性DP</a></li>
+<li><a href="#0x52-%E8%83%8C%E5%8C%85">0x52 背包</a></li>
+<li><a href="#0x53-%E5%8C%BA%E9%97%B4dp">0x53 区间DP</a></li>
+<li><a href="#0x54-%E6%A0%91%E5%BD%A2dp">0x54 树形DP</a></li>
+<li><a href="#0x55-%E7%8E%AF%E5%BD%A2%E4%B8%8E%E5%90%8E%E6%95%88%E6%80%A7%E5%A4%84%E7%90%86">0x55 环形与后效性处理</a></li>
+<li><a href="#0x56-%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9dp">0x56 状态压缩DP</a></li>
+<li><a href="#0x57-%E5%80%8D%E5%A2%9E%E4%BC%98%E5%8C%96dp">0x57 倍增优化DP</a></li>
+<li><a href="#0x58-%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%BC%98%E5%8C%96dp">0x58 数据结构优化DP</a></li>
+<li><a href="#0x59-%E5%8D%95%E8%B0%83%E9%98%9F%E5%88%97%E4%BC%98%E5%8C%96dp">0x59 单调队列优化DP</a></li>
+<li><a href="#0x5a-%E6%96%9C%E7%8E%87%E4%BC%98%E5%8C%96">0x5A 斜率优化</a></li>
+<li><a href="#0x5b-%E5%9B%9B%E8%BE%B9%E5%BD%A2%E4%B8%8D%E7%AD%89%E5%BC%8F">0x5B 四边形不等式</a></li>
+<li><a href="#0x5c-%E8%AE%A1%E6%95%B0%E7%B1%BBdp">0x5C 计数类DP</a></li>
+<li><a href="#0x5e-%E6%80%BB%E7%BB%93%E4%B8%8E%E7%BB%83%E4%B9%A0">0x5E  总结与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x60-%E5%9B%BE%E8%AE%BA">0x60 图论</a><br>
+*
+<ul>
+<li><a href="#0x61-%E6%9C%80%E7%9F%AD%E8%B7%AF">0x61 最短路</a></li>
+<li><a href="#0x62-%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91">0x62 最小生成树</a></li>
+<li><a href="#0x63-%E6%A0%91%E7%9A%84%E7%9B%B4%E5%BE%84%E4%B8%8E%E6%9C%80%E8%BF%91%E5%85%AC%E5%85%B1%E7%A5%96%E5%85%88">0x63 树的直径与最近公共祖先</a></li>
+<li><a href="#0x64-%E5%9F%BA%E7%8E%AF%E6%A0%91">0x64 基环树</a></li>
+<li><a href="#0x65-%E8%B4%9F%E7%8E%AF%E4%B8%8E%E5%B7%AE%E5%88%86%E7%BA%A6%E6%9D%9F">0x65 负环与差分约束</a></li>
+<li><a href="#0x66-tarjan%E7%AE%97%E6%B3%95%E4%B8%8E%E6%97%A0%E5%90%91%E5%9B%BE%E8%BF%9E%E9%80%9A%E6%80%A7">0x66 Tarjan算法与无向图连通性</a></li>
+<li><a href="#0x67-tarjan%E7%AE%97%E6%B3%95%E4%B8%8E%E6%9C%89%E5%90%91%E5%9B%BE%E8%BF%9E%E9%80%9A%E6%80%A7">0x67 Tarjan算法与有向图连通性</a></li>
+<li><a href="#0x68-%E4%BA%8C%E5%88%86%E5%9B%BE%E7%9A%84%E5%8C%B9%E9%85%8D">0x68 二分图的匹配</a></li>
+<li><a href="#0x69-%E4%BA%8C%E5%88%86%E5%9B%BE%E7%9A%84%E8%A6%86%E7%9B%96%E4%B8%8E%E7%8B%AC%E7%AB%8B%E9%9B%86">0x69 二分图的覆盖与独立集</a></li>
+<li><a href="#0x6a-%E7%BD%91%E7%BB%9C%E6%B5%81%E5%88%9D%E6%AD%A5">0x6A 网络流初步</a></li>
+<li><a href="#0x6b-%E7%BB%BC%E5%90%88%E4%B8%8E%E7%BB%83%E4%B9%A0">0x6B 综合与练习</a></li>
+</ul>
+</li>
+<li><a href="#0x70-%E7%BB%BC%E5%90%88%E6%8A%80%E5%B7%A7%E4%B8%8E%E5%AE%9E%E8%B7%B5">0x70 综合技巧与实践</a><br>
+*
+<ul>
+<li><a href="#0x71-c-stl">0x71 C++ STL</a></li>
+<li><a href="#0x72-%E9%9A%8F%E6%9C%BA%E6%95%B0%E6%8D%AE%E7%94%9F%E6%88%90%E4%B8%8E%E5%AF%B9%E6%8B%8D">0x72 随机数据生成与对拍</a></li>
+</ul>
+</li>
+<li><a href="#0x7f-%E9%99%84%E5%BD%95">0x7F 附录</a></li>
+</ul>
+</li>
+</ul>
+
     </div>
     </div>
     </div>
@@ -964,7 +1158,7 @@
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "还·潮连汐静",
+                    title: "蓝书·目录",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {
