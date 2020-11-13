@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-12T10:55:18.847Z</updated>
+    <updated>2020-11-13T12:28:42.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://pray-yueyu.github.io/images/avatar.png</logo>
     <icon>https://pray-yueyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 月雩の小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[Markdown嵌入mp3、mp4]]></title>
+        <id>https://pray-yueyu.github.io/post/markdown-qian-ru-mp3mp4/</id>
+        <link href="https://pray-yueyu.github.io/post/markdown-qian-ru-mp3mp4/">
+        </link>
+        <updated>2020-11-13T06:33:57.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="mp4">mp4:</h2>
+<pre><code class="language-cpp">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;作者(图片地址)&quot;&gt;
+&lt;source id=&quot;mp4&quot; src=&quot;视频地址&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+</code></pre>
+<h2 id="mp3">mp3:</h2>
+<pre><code class="language-cpp">&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+&lt;source id=&quot;mp3&quot; src=&quot;音频地址&quot;&gt;
+&lt;/audio&gt;
+</code></pre>
+<video id="video" controls="" preload="none" poster="https://pray-yueyu.github.io/post-images/about.jpg">
+<source id="mp4" src="https://wallpaperm.cmcm.com/scene/preview_video/f86f60751ea34a23648deefde230cb43_preview.mp4">
+</video>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[蓝书·目录]]></title>
         <id>https://pray-yueyu.github.io/post/lan-shu-mu-lu/</id>
@@ -105,6 +126,7 @@
         </link>
         <updated>2020-11-11T04:05:14.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/sunbocong/article/details/81033915">编辑表格方法</a></p>
+<p><strong>Updated on 11.13:Happy Birthday!</strong></p>
 <table border="0" cellpadding="0" cellspacing="0" width="1322" style="border-collapse:
  collapse;table-layout:fixed;width:993pt">
  <colgroup><col width="74" style="mso-width-source:userset;mso-width-alt:2368;width:56pt">
@@ -182,8 +204,8 @@
     我的失误：细节出锅&amp;没想到最优解<br></br>
     所花时间：2.9h</td>
   <td class="xl6412323" width="226" style="width:170pt">我的想法：拿部分分<br></br>
-    正解：建图+最短路<br>
-    我的失误：时间太少，不够想<br>
+    正解：建图+最短路<br></br>
+    我的失误：时间太少，不够想<br></br>
     所花时间：0.6h</td>
   <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
     正解：我要爆炸了<br></br>
@@ -191,6 +213,28 @@
     所花时间：0</td>
   <td class="xl6412323" width="221" style="width:166pt">第二题花的时间太长了</td>
  </tr>
+ <tr height="76" style="height:57.0pt">
+  <td height="76" class="xl6612323" style="height:57.0pt">11月13日</td>
+  <td class="xl1512323" align="right">100</td>
+  <td class="xl1512323" align="right">100</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：大模拟<br></br>
+    正解：大模拟<br></br>
+    我的失误：时间花得有点久<br></br>
+    所花时间：1.1h</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：无<br></br>
+    正解：构造<br></br>
+    我的失误：忘了拓扑序<br></br>
+    所花时间：0</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：无<br></br>
+    正解：Dp<br></br>
+    我的失误：没有看<br></br>
+    所花时间：0</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：贪心<br></br>
+    正解：贪心<br></br>
+    我的失误：规律错了<br></br>
+    所花时间：2.9h</td>
+  <td class="xl6412323" width="221" style="width:166pt">Acm赛制，没有部分分，直接没看不会的题目</td>
+</tr>
  <!--[if supportMisalignedColumns]-->
  <tr height="0" style="display:none">
   <td width="74" style="width:56pt"></td>
@@ -256,53 +300,6 @@ int main()
 <p><a href="https://www.cnblogs.com/luckyblock/p/13945486.html#c">题解</a></p>
 <h2 id="t4贪吃蛇">T4:<a href="https://www.luogu.com.cn/problem/P7078">贪吃蛇</a></h2>
 <p>暂无</p>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[CSPs-2020 T2 动物园]]></title>
-        <id>https://pray-yueyu.github.io/post/csps-2020-t2-dong-wu-yuan/</id>
-        <link href="https://pray-yueyu.github.io/post/csps-2020-t2-dong-wu-yuan/">
-        </link>
-        <updated>2020-11-09T07:10:41.000Z</updated>
-        <content type="html"><![CDATA[<p><strong>星影落九天，鱼雁舞千弦。但为君沉吟，落日天涯圆。</strong></p>
-<p>根据题意，显然有：<strong>当饲料清单上某一位为0时，不能再加入一种动物使得这一位变为1，其余的位置可以为0或1</strong></p>
-<p>令<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>S</mi></mrow><annotation encoding="application/x-tex">S</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span></span></span></span>为所有饲料清单上第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">P_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>的个数（<strong>注意要去重</strong>）</p>
-<p>那么最终答案就是<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mrow><mi>k</mi><mo>−</mo><mi>S</mi></mrow></msup><mo>−</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">2^{k-S}-n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.9324379999999999em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8491079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight" style="margin-right:0.03148em;">k</span><span class="mbin mtight">−</span><span class="mord mathdefault mtight" style="margin-right:0.05764em;">S</span></span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>（<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo separator="true">,</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">k,n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span></span></span></span>即为题目中所给的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo separator="true">,</mo><mi>n</mi></mrow><annotation encoding="application/x-tex">k,n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span></span></span></span>）</p>
-<p>初始的饲料清单可以记录一个数<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">F=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，则<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>x</mi><mi>o</mi><msubsup><mi>r</mi><mrow><mi>i</mi><mo>=</mo><mn>1</mn></mrow><mi>n</mi></msubsup><msub><mi>a</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">xor_{i=1}^na_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.923056em;vertical-align:-0.258664em;"></span><span class="mord mathdefault">x</span><span class="mord mathdefault">o</span><span class="mord"><span class="mord mathdefault" style="margin-right:0.02778em;">r</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.664392em;"><span style="top:-2.441336em;margin-left:-0.02778em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mrel mtight">=</span><span class="mord mtight">1</span></span></span></span><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">n</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.258664em;"><span></span></span></span></span></span></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>的结果就是饲料清单的值(令结果为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span>)</p>
-<p>判断第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>P</mi><mi>i</mi></msub></mrow><annotation encoding="application/x-tex">P_i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.83333em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.13889em;">P</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:-0.13889em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>位是否为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>0</mn></mrow><annotation encoding="application/x-tex">0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>，可以判断<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi><mi mathvariant="normal">∣</mi><mo>(</mo><mn>1</mn><mi>u</mi><mi>l</mi><mi>l</mi><mo>&lt;</mo><mo>&lt;</mo><msub><mi>p</mi><mi>i</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">F|(1ull&lt;&lt;p_i)</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span><span class="mord">∣</span><span class="mopen">(</span><span class="mord">1</span><span class="mord mathdefault">u</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">&lt;</span></span><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathdefault mtight">i</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span>是否等于<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>F</mi></mrow><annotation encoding="application/x-tex">F</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.13889em;">F</span></span></span></span>。(<strong>这里的<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>要用<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi><mi>l</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">ull</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">u</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span></span></span></span></strong>)</p>
-<p>需要特别注意的是最<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span></span></span></span>最大可以达到<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>64</mn></mrow><annotation encoding="application/x-tex">64</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">6</span><span class="mord">4</span></span></span></span>，所以答案一定要用<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi><mi>n</mi><mi>s</mi><mi>i</mi><mi>g</mi><mi>n</mi><mi>e</mi><mi>d</mi></mrow><annotation encoding="application/x-tex">unsigned</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault">u</span><span class="mord mathdefault">n</span><span class="mord mathdefault">s</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span><span class="mord mathdefault">n</span><span class="mord mathdefault">e</span><span class="mord mathdefault">d</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>n</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">long</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span> <span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>l</mi><mi>o</mi><mi>n</mi><mi>g</mi></mrow><annotation encoding="application/x-tex">long</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8888799999999999em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">o</span><span class="mord mathdefault">n</span><span class="mord mathdefault" style="margin-right:0.03588em;">g</span></span></span></span>保存，不然会爆！</p>
-<p>然而太弱的我并没想到<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>k</mi><mo>=</mo><mn>64</mn><mo separator="true">,</mo><mi>S</mi><mo>=</mo><mn>0</mn><mo separator="true">,</mo><mi>n</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">k=64,S=0,n=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault" style="margin-right:0.03148em;">k</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8777699999999999em;vertical-align:-0.19444em;"></span><span class="mord">6</span><span class="mord">4</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault" style="margin-right:0.05764em;">S</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.8388800000000001em;vertical-align:-0.19444em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">n</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span>这种情况，因为它的答案为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mn>2</mn><mn>64</mn></msup></mrow><annotation encoding="application/x-tex">2^{64}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.8141079999999999em;vertical-align:0em;"></span><span class="mord"><span class="mord">2</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">6</span><span class="mord mtight">4</span></span></span></span></span></span></span></span></span></span></span></span>，<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>u</mi><mi>l</mi><mi>l</mi></mrow><annotation encoding="application/x-tex">ull</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">u</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span></span></span></span>并不能存下它，那么就只有特判了!</p>
-<h2 id="code">Code</h2>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define ll long long
-using namespace std;
-unsigned ll read()
-{
-	unsigned ll x=0,f=1;char ch=getchar();
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();} 
-	return x*f;
-}
-bool vis[1000];
-unsigned ll n,m,c,k,F,q,p;
-int main()
-{
-	freopen(&quot;zoo.in&quot;,&quot;r&quot;,stdin);
-	freopen(&quot;zoo.out&quot;,&quot;w&quot;,stdout);
-	n=read(),m=read(),c=read(),k=read(),F=0;
-	for(unsigned ll i=1,a;i&lt;=n;i++)a=read(),F=F|a;
-	for(unsigned ll i=1;i&lt;=m;i++)
-	{
-		p=read(),q=read();
-		if((F|(1ull&lt;&lt;p))!=F&amp;&amp;!vis[p])k--,vis[p]=true;
-	}
-	if(k==64&amp;&amp;n==0)printf(&quot;18446744073709551616\n&quot;),exit(0);
-	unsigned ll ans=(unsigned ll)pow(2,k)-n;
-	printf(&quot;%llu\n&quot;,ans);
-	return 0;
-}
-
-</code></pre>
 ]]></content>
     </entry>
     <entry>
