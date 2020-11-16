@@ -1,12 +1,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=0">
-    <meta name="description" content="编辑表格方法
-Html:
-加粗：&lt;b&gt;加粗&lt;/b&gt;
-换行：&lt;br&gt;换行&lt;/br&gt;
-超链接：&lt;a href=&quot;地址&quot; target=&quot;('_self'会在当前..." />
-    <meta name="keywords" content="" />
+    <meta name="description" content="
+星影落九天，鱼雁舞千弦。但为君沉吟，落日天涯圆。
+
+[题目传送门]
+先考虑若不是环的情况
+设状态为dp[i][j][0/1]dp[i][j][0/1]dp[i][j][0/1]：
+dp[i][j][0]dp[i][j][0]dp[i][j..." />
+    <meta name="keywords" content="DP,题解" />
     <link rel="stylesheet" href="https://pray-yueyu.github.io/media/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://pray-yueyu.github.io/styles/main.css">
     
@@ -492,21 +494,29 @@ Html:
         <div class="postshow" style="padding-bottom: 0;">
             
             <div class="postdetailimg" style="width:100%;overflow: hidden;">
-                <img src="https://pray-yueyu.github.io/post-images/ce-shi-zong-jie-2020noip-qian.jpg" class="postimage" style="cursor:auto">
+                <img src="https://pray-yueyu.github.io/post-images/usaco05jannaptime.jpg" class="postimage" style="cursor:auto">
             </div>
             <div class="postinfo-detail">
-                <div class="postdate"><i class="fa fa-calendar"></i>2020-11-11</div>
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-09-21</div>
                 <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 4 min read</div>
                 <div class="posttag">
+                    
+                    <a href="https://pray-yueyu.github.io/tag/hOrqrMktq/" class="postlink">
+                        <i class="fa fa-tag"></i> DP
+                    </a>
+                    
+                    <a href="https://pray-yueyu.github.io/tag/j2d1T5giV/" class="postlink">
+                        <i class="fa fa-tag"></i> 题解
+                    </a>
                     
                 </div>
             </div>
             
         <div id="articlecontent">
             <div id="texttitle" style="text-align: center">
-                <h2>测试总结(2020·NOIP前)</h2>
+                <h2>USACO05JAN「Naptime」</h2>
                 <!-- id 将作为查询条件 -->
-                <div id="pl" style="display:none">https://pray-yueyu.github.io/post/ce-shi-zong-jie-2020noip-qian/</div>
+                <div id="pl" style="display:none">https://pray-yueyu.github.io/post/usaco05jannaptime/</div>
                 <div id="rootaddr" style="display:none">https://pray-yueyu.github.io</div>
                 <span id="hotnum">
                     <h4><i class="fa fa-eye" aria-hidden="true" style="color: #FF8C00;"></i>&nbsp;&nbsp;热度</i>: <i
@@ -514,159 +524,66 @@ Html:
                 </span>
             </div>
             <div class="text ">
-                <p><a href="https://blog.csdn.net/sunbocong/article/details/81033915">编辑表格方法</a></p>
-<pre><code class="language-html">Html:
-加粗：&lt;b&gt;加粗&lt;/b&gt;
-换行：&lt;br&gt;换行&lt;/br&gt;
-超链接：&lt;a href=&quot;地址&quot; target=&quot;('_self'会在当前页面打开)('_blank'会在新标签打开)&quot;&gt;名称&lt;/a&gt;
-小于：&amp;lt;
+                <hr>
+<p><strong>星影落九天，鱼雁舞千弦。但为君沉吟，落日天涯圆。</strong></p>
+<hr>
+<p><a href="https://www.luogu.com.cn/problem/P6064">[题目传送门]</a></p>
+<p>先考虑若不是环的情况</p>
+<p>设状态为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>[</mo><mi>j</mi><mo>]</mo><mo>[</mo><mn>0</mn><mi mathvariant="normal">/</mi><mn>1</mn><mo>]</mo></mrow><annotation encoding="application/x-tex">dp[i][j][0/1]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mord mathdefault">p</span><span class="mopen">[</span><span class="mord mathdefault">i</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord">0</span><span class="mord">/</span><span class="mord">1</span><span class="mclose">]</span></span></span></span>：</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>[</mo><mi>j</mi><mo>]</mo><mo>[</mo><mn>0</mn><mo>]</mo></mrow><annotation encoding="application/x-tex">dp[i][j][0]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mord mathdefault">p</span><span class="mopen">[</span><span class="mord mathdefault">i</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord">0</span><span class="mclose">]</span></span></span></span>表示前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>段睡了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span></span></span></span>段且<strong>第</strong><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span><strong>段没睡</strong>前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>段的最大效用值</p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><mi>p</mi><mo>[</mo><mi>i</mi><mo>]</mo><mo>[</mo><mi>j</mi><mo>]</mo><mo>[</mo><mn>1</mn><mo>]</mo></mrow><annotation encoding="application/x-tex">dp[i][j][1]</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord mathdefault">d</span><span class="mord mathdefault">p</span><span class="mopen">[</span><span class="mord mathdefault">i</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span><span class="mclose">]</span><span class="mopen">[</span><span class="mord">1</span><span class="mclose">]</span></span></span></span>表示前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>段睡了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.85396em;vertical-align:-0.19444em;"></span><span class="mord mathdefault" style="margin-right:0.05724em;">j</span></span></span></span>段且<strong>第</strong><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span><strong>段睡了</strong>前<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>i</mi></mrow><annotation encoding="application/x-tex">i</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.65952em;vertical-align:0em;"></span><span class="mord mathdefault">i</span></span></span></span>段的最大效用值</p>
+<p>那么<strong>状态转移方程</strong>即为：</p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mn>0</mn></mrow></msub><mo>=</mo><mi>m</mi><mi>a</mi><mi>x</mi><mo>(</mo><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mn>0</mn></mrow></msub><mo separator="true">,</mo><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mn>1</mn></mrow></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">dp_{i,j,0}=max(dp_{i-1,j,0},dp_{i-1,j,1})
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault">a</span><span class="mord mathdefault">x</span><span class="mopen">(</span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mn>1</mn></mrow></msub><mo>=</mo><mi>m</mi><mi>a</mi><mi>x</mi><mo>(</mo><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>j</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mn>0</mn></mrow></msub><mo>+</mo><mn>0</mn><mo separator="true">,</mo><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mi>j</mi><mo>−</mo><mn>1</mn><mo separator="true">,</mo><mn>1</mn></mrow></msub><mo>+</mo><msub><mi>a</mi><mi>i</mi></msub><mo>)</mo></mrow><annotation encoding="application/x-tex">dp_{i,j,1}=max(dp_{i-1,j-1,0}+0,dp_{i-1,j-1,1}+a_{i})
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:1.036108em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">m</span><span class="mord mathdefault">a</span><span class="mord mathdefault">x</span><span class="mopen">(</span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord">0</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.16666666666666666em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.311664em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mbin mtight">−</span><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.31166399999999994em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span><span class="mclose">)</span></span></span></span></span></p>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><msub><mi>p</mi><mrow><mi>i</mi><mo separator="true">,</mo><mi>j</mi><mo separator="true">,</mo><mn>0</mn><mi mathvariant="normal">/</mi><mn>1</mn></mrow></msub></mrow><annotation encoding="application/x-tex">dp_{i,j,0/1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.04964em;vertical-align:-0.3551999999999999em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.34480000000000005em;"><span style="top:-2.5198em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">i</span><span class="mpunct mtight">,</span><span class="mord mathdefault mtight" style="margin-right:0.05724em;">j</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span><span class="mord mtight">/</span><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.3551999999999999em;"><span></span></span></span></span></span></span></span></span></span>的初值为-INF</p>
+<p>那么<strong>对于环</strong>，只需要强制连接第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">n</span></span></span></span>段与第<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mn>1</mn></mrow><annotation encoding="application/x-tex">1</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">1</span></span></span></span>段</p>
+<p>即：将<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>d</mi><msub><mi>p</mi><mrow><mn>1</mn><mo separator="true">,</mo><mn>0</mn><mo separator="true">,</mo><mn>0</mn></mrow></msub></mrow><annotation encoding="application/x-tex">dp_{1,0,0}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.980548em;vertical-align:-0.286108em;"></span><span class="mord mathdefault">d</span><span class="mord"><span class="mord mathdefault">p</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.301108em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span><span class="mpunct mtight">,</span><span class="mord mtight">0</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.286108em;"><span></span></span></span></span></span></span></span></span></span>的初值赋为<span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>a</mi><mn>1</mn></msub></mrow><annotation encoding="application/x-tex">a_{1}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.58056em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathdefault">a</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.30110799999999993em;"><span style="top:-2.5500000000000003em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mtight">1</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span>即可</p>
+<h2 id="code">Code</h2>
+<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
+#define FQ(i,a,b) for(register int i=a;i&lt;=b;i++)
+#define prf printf
+#define scf scanf
+#define ll long long
+using namespace std;
+int INF;
+const int N=3835;
+int n,m,ans,a[N],F[N][N][2];
+ll read()
+{
+	ll x=0,f=1;char ch=getchar();
+	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
+	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
+	return x*f;
+}
+int main()
+{
+	INF=-128/2;
+	n=read(),m=read();memset(F,INF,sizeof(F));
+	for(int i=1;i&lt;=n;i++)a[i]=read();
+	for(int i=1;i&lt;=n;i++)F[i][0][0]=0;F[1][1][1]=0;
+	for(int i=2;i&lt;=n;i++)
+		for(int j=1;j&lt;=m;j++)
+		{		
+			F[i][j][0]=max(F[i-1][j][0],F[i-1][j][1]);		
+			F[i][j][1]=max(F[i-1][j-1][0]+0,F[i-1][j-1][1]+a[i]);		
+		}	
+	ans=max(F[n][m][1],F[n][m][0]);	
+	memset(F,INF,sizeof(F));
+	for(int i=1;i&lt;=n;i++)F[i][0][0]=0;F[1][1][1]=a[1];
+	for(int i=2;i&lt;=n;i++)
+		for(int j=1;j&lt;=m;j++)
+		{	
+			F[i][j][0]=max(F[i-1][j][0],F[i-1][j][1]);	
+			F[i][j][1]=max(F[i-1][j-1][0]+0/*不计i的效用值*/,F[i-1][j-1][1]+a[i]);	
+		}
+	ans=max(ans,F[n][m][1]);
+	printf(&quot;%d\n&quot;,ans);
+	return 0;	
+} 
 </code></pre>
-<p>'❤️'=&amp; lt;3(去掉空格)</p>
-<p><strong>Updated on 11.13:Happy Birthday!</strong><br>
-<strong>Updated on 11.16:Stop Updating(继续观看请移至 我的博客园(友链))</strong></p>
-<table border="0" cellpadding="0" cellspacing="0" width="1322" style="border-collapse:
- collapse;table-layout:fixed;width:993pt">
- <colgroup><col width="74" style="mso-width-source:userset;mso-width-alt:2368;width:56pt">
- <col width="72" span="2" style="width:54pt">
- <col width="216" style="mso-width-source:userset;mso-width-alt:6912;width:162pt">
- <col width="215" style="mso-width-source:userset;mso-width-alt:6880;width:161pt">
- <col width="226" span="2" style="mso-width-source:userset;mso-width-alt:7232;
- width:170pt">
- <col width="221" style="mso-width-source:userset;mso-width-alt:7072;width:166pt">
- </colgroup><tbody><tr height="19" style="height:14.25pt">
-  <td height="19" class="xl1512323" width="74" style="height:14.25pt;width:56pt">日期</td>
-  <td class="xl1512323" width="72" style="width:54pt">预估得分</td>
-  <td class="xl1512323" width="72" style="width:54pt">实际得分</td>
-  <td class="xl6312323" width="216" style="width:162pt">T1总结</td>
-  <td class="xl6312323" width="215" style="width:161pt">T2总结</td>
-  <td class="xl6312323" width="226" style="width:170pt">T3总结</td>
-  <td class="xl6312323" width="226" style="width:170pt">T4总结</td>
-  <td class="xl1512323" width="221" style="width:166pt">其他总结（比如整体策略）</td>
- </tr>
- <tr height="114" style="height:85.5pt">
-  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-10by-wxh">11月10日</a></td>
-  <td class="xl1512323" align="right">80</td>
-  <td class="xl1512323" align="right">20</td>
-  <td class="xl6412323" width="216" style="width:162pt">我的想法：没想<br></br>
-    正解：并查集<br></br>
-    我的失误：无<br></br>
-    所花时间：15min（乱想）</td>
-  <td class="xl6412323" width="215" style="width:161pt">我的想法：n&lt;=4打表<br></br>
-    正解：构造<br></br>
-    我的失误：捆绑测试，表没打完<br></br>
-    所花时间：2h+15min</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力枚举<br></br>
-    正解：规律。。。<br></br>
-    我的失误：特殊情况没判断<br></br>
-    所花时间：30min</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：类似于Trie的不知道是什么东西的东西<br></br>
-    正解：可持久化线段树、Hash、LCP<br></br>
-    我的失误：想法错误<br></br>
-    所花时间：58min</td>
-  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>T1没做是个错误的决定</td>
- </tr>
- <tr height="76" style="height:57.0pt">
-  <td height="76" class="xl6612323" style="height:57.0pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-11">11月11日</a></td>
-  <td class="xl1512323" align="right">20</td>
-  <td class="xl1512323" align="right">20</td>
-  <td class="xl6412323" width="216" style="width:162pt">我的想法：暴力<br></br>
-    正解：数学证明结论题<br></br>
-    我的失误：无(时间把握)<br></br>
-    所花时间：0.5h</td>
-  <td class="xl6412323" width="215" style="width:161pt">我的想法：无<br></br>
-    正解：计数<br></br>
-    我的失误：无<br></br>
-    所花时间：0</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：无<br></br>
-    正解：没有特别地懂<br></br>
-    我的失误：无<br></br>
-    所花时间：0</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：一个一个地找<br></br>
-    正解：倍增<br></br>
-    我的失误：不知道怎么使用函数<br></br>
-    所花时间：3h</td>
-  <td class="xl6412323" width="221" style="width:166pt">1.电脑坏了0.5h<br></br>
-    2.看到有交互题就直接去做了，但是看不懂啊啊</td>
- </tr>
- <tr height="95" style="height:71.25pt">
-  <td height="95" class="xl6612323" style="height:71.25pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-12">11月12日</a></td>
-  <td class="xl1512323" align="right">200</td>
-  <td class="xl1512323" align="right">170</td>
-  <td class="xl6412323" width="216" style="width:162pt">我的想法：规律<br></br>
-    正解：数学证明结论题<br></br>
-    我的失误：无<br></br>
-    所花时间：0.5h</td>
-  <td class="xl6412323" width="215" style="width:161pt">我的想法：单调队列<br></br>
-    正解：单调队列<br></br>
-    我的失误：细节出锅&amp;没想到最优解<br></br>
-    所花时间：2.9h</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：拿部分分<br></br>
-    正解：建图+最短路<br></br>
-    我的失误：时间太少，不够想<br></br>
-    所花时间：0.6h</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
-    正解：我要爆炸了<br></br>
-    我的失误：没打<br></br>
-    所花时间：0</td>
-  <td class="xl6412323" width="221" style="width:166pt">第二题花的时间太长了</td>
- </tr>
- <tr height="76" style="height:57.0pt">
-  <td height="76" class="xl6612323" style="height:57.0pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-13">11月13日</a></td>
-  <td class="xl1512323" align="right">100</td>
-  <td class="xl1512323" align="right">100</td>
-  <td class="xl6412323" width="216" style="width:162pt">我的想法：大模拟<br></br>
-    正解：大模拟<br></br>
-    我的失误：时间花得有点久<br></br>
-    所花时间：1.1h</td>
-  <td class="xl6412323" width="215" style="width:161pt">我的想法：无<br></br>
-    正解：构造<br></br>
-    我的失误：忘了拓扑序<br></br>
-    所花时间：0</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：无<br></br>
-    正解：Dp<br></br>
-    我的失误：没有看<br></br>
-    所花时间：0</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：贪心<br></br>
-    正解：贪心<br></br>
-    我的失误：规律错了<br></br>
-    所花时间：2.9h</td>
-  <td class="xl6412323" width="221" style="width:166pt">Acm赛制，没有部分分，直接没看不会的题目</td>
-  </tr>
- <tr height="114" style="height:85.5pt">
-  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-14">11月14日</a></td>
-  <td class="xl1512323" align="right">155</td>
-  <td class="xl1512323" align="right">60</td>
-  <td class="xl6412323" width="216" style="width:162pt">我的想法：大法师+判断剪枝<br></br>
-    正解：同上<br></br>
-    我的失误：最后一分钟想出来怎么做，但是时间不够了<br></br>
-    所花时间：8:06~8:49+11:30~12:10(超时)</td>
-  <td class="xl6412323" width="215" style="width:161pt">我的想法：暴力部分分<br></br>
-    正解：换根DP+树状数组维护？<br></br>
-    我的失误：程序名称写错。。<br></br>
-    所花时间：1.4hmin</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
-    正解：??<br></br>
-    我的失误：同T2。。<br></br>
-    所花时间：1.2min</td>
-  <td class="xl6412323" width="226" style="width:170pt">我的想法：心态爆炸，没想<br></br>
-    正解：找规律构造？<br></br>
-    我的失误：无<br></br>
-    所花时间：1~5min</td>
-  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>T1可惜了，差一点</td>
-</tr>
- <!--[if supportMisalignedColumns]-->
- <tr height="0" style="display:none">
-  <td width="74" style="width:56pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="72" style="width:54pt"></td>
-  <td width="216" style="width:162pt"></td>
-  <td width="215" style="width:161pt"></td>
-  <td width="226" style="width:170pt"></td>
-  <td width="226" style="width:170pt"></td>
-  <td width="221" style="width:166pt"></td>
- </tr>
- <!--[endif]-->
-</tbody></table>
+
             </div>
             <hr style="width: 80%;">
             
@@ -703,7 +620,7 @@ Html:
             <div class="postfooter">
                 <ul class="post-copyright">
                     <li><strong>文章作者：</strong>月雩·薇嫮</li>
-            <li><strong>原文链接：</strong>https://pray-yueyu.github.io/post/ce-shi-zong-jie-2020noip-qian/</li>
+            <li><strong>原文链接：</strong>https://pray-yueyu.github.io/post/usaco05jannaptime/</li>
             <li><strong>版权声明：</strong>本博客所有文章除特别声明外，均采用<i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA
                 许可协议。转载请注明出处！</li>
             </ul>
@@ -711,28 +628,28 @@ Html:
         <div id="otherpost">
             
             <div class="prev-post-pc">
-                <div id="ppcontainer" onclick="window.location.href= 'https://pray-yueyu.github.io/post/lan-shu-mu-lu/';return false">
+                <div id="ppcontainer" onclick="window.location.href= 'https://pray-yueyu.github.io/post/manacherma-la-che/';return false">
                     
-                    <img src="https://pray-yueyu.github.io/post-images/lan-shu-mu-lu.jpg" style="width: 100%;" class="opimg">
+                    <img src="https://pray-yueyu.github.io/post-images/manacherma-la-che.jpg" style="width: 100%;" class="opimg">
                     
-                    <h4 class="optitle">蓝书·目录</h4>
+                    <h4 class="optitle">Manacher(马拉车)</h4>
                 </div>
             </div>
             <div class="prev-post">
-                上一篇 <a href="https://pray-yueyu.github.io/post/lan-shu-mu-lu/">蓝书·目录</a>
+                上一篇 <a href="https://pray-yueyu.github.io/post/manacherma-la-che/">Manacher(马拉车)</a>
             </div>
             
             
             <div class="next-post-pc">
-                <div id="npcontainer" onclick="window.location.href= 'https://pray-yueyu.github.io/post/csps-2020-ti-jie/';return false">
+                <div id="npcontainer" onclick="window.location.href= 'https://pray-yueyu.github.io/post/cf407b-long-path/';return false">
                     
-                    <img src="https://pray-yueyu.github.io/post-images/csps-2020-ti-jie.jpg" style="width: 100%;" class="opimg">
+                    <img src="https://pray-yueyu.github.io/post-images/cf407b-long-path.jpg" style="width: 100%;" class="opimg">
                     
-                    <h4 class="optitle">CSPs-2020 题解</h4>
+                    <h4 class="optitle">CF407B 「Long Path」</h4>
                 </div>
             </div>
             <div class="next-post">
-                下一篇 <a href="https://pray-yueyu.github.io/post/csps-2020-ti-jie/">CSPs-2020 题解</a>
+                下一篇 <a href="https://pray-yueyu.github.io/post/cf407b-long-path/">CF407B 「Long Path」</a>
             </div>
             
         </div>
@@ -877,7 +794,14 @@ Html:
 </script>
         
         <div class="toc-container">
-            
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#code">Code</a></li>
+</ul>
+</li>
+</ul>
+
     </div>
     </div>
     </div>
@@ -1115,7 +1039,7 @@ Html:
                 var nc = new NewCounter();
                 nc.save({
                     time: 1,
-                    title: "测试总结(2020·NOIP前)",
+                    title: "USACO05JAN「Naptime」",
                     url: pl,
                     xid: pl,
                 }).then(function (object) {
