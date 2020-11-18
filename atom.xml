@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-16T13:45:05.539Z</updated>
+    <updated>2020-11-18T11:07:34.564Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -1011,7 +1011,7 @@
   <td class="xl6412323" width="215" style="width:161pt">我的想法：暴力部分分<br></br>
     正解：换根DP+树状数组维护？<br></br>
     我的失误：程序名称写错。。<br></br>
-    所花时间：1.4hmin</td>
+    所花时间：1.4h</td>
   <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
     正解：??<br></br>
     我的失误：同T2。。<br></br>
@@ -1043,6 +1043,51 @@
     我的失误：没失误<br></br>
     所花时间：Other</td>
   <td class="xl6412323" width="221" style="width:166pt">太多失误了，太多惊喜了</td>
+  </tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-17">11月17日</a></td>
+  <td class="xl1512323" align="right">120</td>
+  <td class="xl1512323" align="right">55</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：递推<br></br>
+    正解：Dfs-log计算<br></br>
+    我的失误：几乎没有失误，有就是没想出正解<br></br>
+    所花时间：8:06~8:55+11:30~12:00</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：暴力部分分<br></br>
+    正解：5颗线段树(or 假算法水数据)<br></br>
+    我的失误：没开long long<br></br>
+    所花时间：8:55~10:30</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：然鹅并没有想法<br></br>
+    正解：计数DP？？<br></br>
+    我的失误：无<br></br>
+    所花时间：5.141592min</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：DP+组合<br></br>
+    我的失误：数组开小+细节没处理好<br></br>
+    所花时间：Other</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>又是小失误，CaO
+</tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-18">11月18日</a></td>
+  <td class="xl1512323" align="right">51</td>
+  <td class="xl1512323" align="right">67</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：暴力<br></br>
+    正解：背包DP+分治<br></br>
+    我的失误：几乎没有失误，有就是没想出正解<br></br>
+    所花时间：三道题时间均摊</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：暴力<br></br>
+    正解：Dfs序+队列<br></br>
+    我的失误：完全没有失误，还水过了几个点<br></br>
+    所花时间：略</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：然鹅并没有想法<br></br>
+    正解：完全不了解<br></br>
+    我的失误：无<br></br>
+    所花时间：2min</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：数学推论+FFT<br></br>
+    我的失误：数组开小+细节没处理好<br></br>
+    所花时间：略</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>第一次实际分数比预测高(数据太水了)，不过今天感觉状态不是特别好，完全不知道怎么做
+  </td>
 </tr>
  <!--[if supportMisalignedColumns]-->
  <tr height="0" style="display:none">
