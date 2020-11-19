@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-18T11:07:34.564Z</updated>
+    <updated>2020-11-19T08:49:04.241Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -10,6 +10,53 @@
     <logo>https://pray-yueyu.github.io/images/avatar.png</logo>
     <icon>https://pray-yueyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, 月雩の小窝</rights>
+    <entry>
+        <title type="html"><![CDATA[自然选择，前进四！]]></title>
+        <id>https://pray-yueyu.github.io/post/zi-ran-xuan-ze-qian-jin-si/</id>
+        <link href="https://pray-yueyu.github.io/post/zi-ran-xuan-ze-qian-jin-si/">
+        </link>
+        <updated>2020-11-18T12:09:07.000Z</updated>
+        <content type="html"><![CDATA[<p>最近看了<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>站的'我的三体之章北海传'</p>
+<p>感觉挺感人的，在这儿放出来</p>
+<p>有兴趣的小伙伴可以看看</p>
+<figure data-type="image" tabindex="1"><img src="https://pray-yueyu.github.io/post-images/1605702458323.jpg" alt="" loading="lazy"></figure>
+<div class="tvcontainer">
+<iframe class="tv"  src="https://www.bilibili.com/bangumi/play/ep300998/?share_medium=web&share_source=weibo&bbid=99B357A1-7FF7-4251-8E64-A8DAAD5A16BD138372infoc&ts=1605701973759"frameborder="no" scrolling="no"></iframe>
+</div>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Html语句(收集中)]]></title>
+        <id>https://pray-yueyu.github.io/post/html-yu-ju-shou-ji-zhong/</id>
+        <link href="https://pray-yueyu.github.io/post/html-yu-ju-shou-ji-zhong/">
+        </link>
+        <updated>2020-11-18T11:31:52.000Z</updated>
+        <content type="html"><![CDATA[<p>添加<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi><mi>i</mi><mi>l</mi><mi>i</mi><mi>b</mi><mi>i</mi><mi>l</mi><mi>i</mi></mrow><annotation encoding="application/x-tex">bilibili</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span><span class="mord mathdefault">b</span><span class="mord mathdefault">i</span><span class="mord mathdefault" style="margin-right:0.01968em;">l</span><span class="mord mathdefault">i</span></span></span></span>(实例)(添加<span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>b</mi></mrow><annotation encoding="application/x-tex">b</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.69444em;vertical-align:0em;"></span><span class="mord mathdefault">b</span></span></span></span>站视频分享中的链接即可)</p>
+<pre><code class="language-html">&lt;div class=&quot;tvcontainer&quot;&gt;
+&lt;iframe class=&quot;tv&quot;  src=&quot;https://www.bilibili.com/bangumi/play/ep300998/?share_medium=web&amp;share_source=weibo&amp;bbid=99B357A1-7FF7-4251-8E64-A8DAAD5A16BD138372infoc&amp;ts=1605701973759&quot;frameborder=&quot;no&quot; scrolling=&quot;no&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+</code></pre>
+<p>添加网易云音乐(进入歌曲，在歌曲图片下面有)</p>
+<pre><code class="language-html">&lt;iframe  class=&quot;music&quot; frameborder=&quot;no&quot; src=&quot;//music.163.com/outchain/player?type=2&amp;id=1431292823&amp;auto=1&amp;height=66&quot;&gt;&lt;/iframe&gt;
+</code></pre>
+<p><span class="katex"><span class="katex-mathml"><math><semantics><mrow><mi>a</mi><mi>u</mi><mi>t</mi><mi>o</mi></mrow><annotation encoding="application/x-tex">auto</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.61508em;vertical-align:0em;"></span><span class="mord mathdefault">a</span><span class="mord mathdefault">u</span><span class="mord mathdefault">t</span><span class="mord mathdefault">o</span></span></span></span>代表是否自动播放</p>
+<p>嵌入MP4：</p>
+<pre><code class="language-html">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;作者(图片地址)&quot;&gt;
+&lt;source id=&quot;mp4&quot; src=&quot;视频地址&quot; type=&quot;video/mp4&quot;&gt;
+&lt;/video&gt;
+</code></pre>
+<p>嵌入MP3：</p>
+<pre><code class="language-html">&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
+&lt;source id=&quot;mp3&quot; src=&quot;音频地址&quot;&gt;
+&lt;/audio&gt;
+</code></pre>
+<p>Other</p>
+<pre><code class="language-html">加粗：&lt;b&gt;加粗&lt;/b&gt;
+换行：&lt;br&gt;换行&lt;/br&gt;
+超链接：&lt;a href=&quot;地址&quot; target=&quot;('_self'会在当前页面打开)('_blank'会在新标签打开)&quot;&gt;名称&lt;/a&gt;
+小于：&amp;lt;
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[《全职高手》所有职业&技能(转载)]]></title>
         <id>https://pray-yueyu.github.io/post/lesslessquan-zhi-gao-shou-greatergreater-suo-you-zhi-ye-andji-neng-zhuan-zai/</id>
@@ -768,27 +815,6 @@
 ]]></content>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Markdown嵌入mp3、mp4]]></title>
-        <id>https://pray-yueyu.github.io/post/markdown-qian-ru-mp3mp4/</id>
-        <link href="https://pray-yueyu.github.io/post/markdown-qian-ru-mp3mp4/">
-        </link>
-        <updated>2020-11-13T06:33:57.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="嵌入mp4语句">嵌入mp4语句:</h2>
-<pre><code class="language-cpp">&lt;video id=&quot;video&quot; controls=&quot;&quot; preload=&quot;none&quot; poster=&quot;作者(图片地址)&quot;&gt;
-&lt;source id=&quot;mp4&quot; src=&quot;视频地址&quot; type=&quot;video/mp4&quot;&gt;
-&lt;/video&gt;
-</code></pre>
-<h2 id="嵌入mp3语句">嵌入mp3语句:</h2>
-<pre><code class="language-cpp">&lt;audio id=&quot;audio&quot; controls=&quot;&quot; preload=&quot;none&quot;&gt;
-&lt;source id=&quot;mp3&quot; src=&quot;音频地址&quot;&gt;
-&lt;/audio&gt;
-</code></pre>
-<video id="video" controls="" preload="none" poster="https://pray-yueyu.github.io/post-images/about.jpg">
-<source id="mp4" src="https://wallpaperm.cmcm.com/scene/preview_video/f86f60751ea34a23648deefde230cb43_preview.mp4">
-</video>
-]]></content>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[蓝书·目录]]></title>
         <id>https://pray-yueyu.github.io/post/lan-shu-mu-lu/</id>
         <link href="https://pray-yueyu.github.io/post/lan-shu-mu-lu/">
@@ -883,13 +909,6 @@
         </link>
         <updated>2020-11-11T04:05:14.000Z</updated>
         <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/sunbocong/article/details/81033915">编辑表格方法</a></p>
-<pre><code class="language-html">Html:
-加粗：&lt;b&gt;加粗&lt;/b&gt;
-换行：&lt;br&gt;换行&lt;/br&gt;
-超链接：&lt;a href=&quot;地址&quot; target=&quot;('_self'会在当前页面打开)('_blank'会在新标签打开)&quot;&gt;名称&lt;/a&gt;
-小于：&amp;lt;
-</code></pre>
-<p>'❤️'=&amp; lt;3(去掉空格)</p>
 <p><strong>Updated on 11.13:Happy Birthday!</strong><br>
 <strong>Updated on 11.16:同步至 我的博客园(友链)</strong></p>
 <table border="0" cellpadding="0" cellspacing="0" width="1322" style="border-collapse:
@@ -1087,6 +1106,28 @@
     我的失误：数组开小+细节没处理好<br></br>
     所花时间：略</td>
   <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>第一次实际分数比预测高(数据太水了)，不过今天感觉状态不是特别好，完全不知道怎么做
+</tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-19">11月19日</a></td>
+  <td class="xl1512323" align="right">50</td>
+  <td class="xl1512323" align="right">30</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：暴力<br></br>
+    正解：Dp<br></br>
+    我的失误：没想出正解<br></br>
+    所花时间：0.5h左右</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：数学计算<br></br>
+    正解：同上<br></br>
+    我的失误：小失误导致：100->0<br></br>
+    所花时间：3h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：Dp+线段树<br></br>
+    我的失误：无<br></br>
+    所花时间：0.5h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：没想<br></br>
+    正解：状压Dp<br></br>
+    我的失误：无<br></br>
+    所花时间：略</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>第二题就式子都推出来了，但是有个小细节错了，再加上时间分配不是特别合理
   </td>
 </tr>
  <!--[if supportMisalignedColumns]-->
@@ -1475,330 +1516,6 @@ int main()
 	return 0;	
 	
 } 
-</code></pre>
-]]></content>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[珂朵莉树(ODT)]]></title>
-        <id>https://pray-yueyu.github.io/post/ke-duo-li-shu-odt/</id>
-        <link href="https://pray-yueyu.github.io/post/ke-duo-li-shu-odt/">
-        </link>
-        <updated>2020-08-29T14:30:21.000Z</updated>
-        <content type="html"><![CDATA[<h2 id="一-什么是珂朵莉树">一、什么是珂朵莉树</h2>
-<p>珂朵莉(<s><strong>抱走</strong></s>~~)树，又称Old Driver Tree(ODT)。这是一种能<strong>暴力</strong>解决数据结构问题的数据结构。（（</p>
-<h2 id="二-什么时候用珂朵莉树">二、什么时候用珂朵莉树</h2>
-<p>关键操作：推平一段区间，使一整段区间内的东西变得一样。保证数据随机。</p>
-<p>当然，一些线段树的问题也可以用它做，只不过分数嘛，嘿嘿。</p>
-<h2 id="三-珂朵莉树的操作">三、珂朵莉树的操作</h2>
-<p>①初始化</p>
-<pre><code class="language-cpp">struct node//先定义一个结构体
-{
-	
-	int l,r;
-	
-	mutable ll v;//不管是什么类型，一定要注意加上mutable!
-	
-	node(int L,int R=-1,ll V=0):l(L),r(R),v(V) {}//就相当于一个赋值吧
-	
-	bool operator&lt;(const node &amp;o) const{return l&lt;o.l;}//排序
-	
-};
-</code></pre>
-<p>然后用一个set维护这个数据结构</p>
-<pre><code class="language-cpp">set&lt;node&gt; s;
-
-s.insert(L,R,V)//插入
-</code></pre>
-<p>②核心操作，分离：Split</p>
-<pre><code class="language-cpp">#define IT set&lt;node&gt;::iterator
-
-IT Split(int pos)
-{
-	
-	IT pl=s.lower_bound(node(pos));//找到首个pl不小于pos的节点。
-	
-	if(pl!=s.end()&amp;&amp;pl-&gt;l==pos)return pl;//如果无需分离，直接返回
-	
-	pl--;//否则pos所在区间一定在pl-1里
-	
-	int L=pl-&gt;l,R=pl-&gt;r;ll V=pl-&gt;v;//指针!
-	
-	s.erase(pl);
-	
-	s.insert(node(L,pos-1,V));//插入
-	
-	return s.insert(node(pos,R,V)).first;//返回后半段的迭代器
-	
-}
-</code></pre>
-<p>将pos所在区域(假如为[L,R])分为[L,pos-1]与[pos,R]两个区间</p>
-<p>注意一定要用set<node>::iterator(NOI及NOIP不能用auto)</p>
-<p>③推平操作：Assign</p>
-<pre><code class="language-cpp">void Ass(int L,int R,ll x=0)//若x没有被赋予初值，则x=1
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	s.erase(p_l,p_r);//清空set中第p_l到第p_r个区间
-	
-	s.insert(node(L,R,x));
-	
-}
-</code></pre>
-<p>将[L,R]区间的所有数变为x</p>
-<p>④区间加法：Add</p>
-<pre><code class="language-cpp">void add(int L,int R,ll x=1)
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	for (;p_l!=p_r;p_l++)
-	
-		p_l-&gt;v+=x;	
-	
-} 
-</code></pre>
-<p>⑤区间第k小：Rank</p>
-<pre><code class="language-cpp">ll Rank_k(int L,int R,int k)
-{
-	
-	vector&lt;pair&lt;ll,int&gt; &gt; pl;
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	for (;p_l!=p_r;p_l++)
-	
-		pl.push_back(pair&lt;ll,int&gt;(p_l-&gt;v,p_l-&gt;r-p_l-&gt;l+1));
-		
-	sort(pl.begin(),pl.end());
-	
-	for(vector&lt;pair&lt;ll,int&gt; &gt;::iterator it=pl.begin();it!=pl.end();it++)
-	{
-		
-		k-=it-&gt;second;
-		
-		if(k&lt;=0)return it-&gt;first;
-		
-	}
-	
-	return -1;
-	
-}
-</code></pre>
-<p>这里用一个vector维护数列</p>
-<p>不断地减，直到刚好小于零时，此时一定为第k值</p>
-<p>⑥区间k次幂的和：Sum</p>
-<pre><code class="language-cpp">ll sum(int L,int R,int x,int M)//模数M
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	ll res=0;
-	
-	for (;p_l!=p_r;p_l++)
-	
-		res=(res+(ll)(p_l-&gt;r-p_l-&gt;l+1)*ksm(p_l-&gt;v,x,M))%M;
-		
-	return (res+M)%M;
-	
-}
-</code></pre>
-<p>若要看例题，点击：<a href="https://www.luogu.com.cn/problem/CF896C">CF896C</a></p>
-<p>完整代码(例题)：</p>
-<pre><code class="language-cpp">#include&lt;bits/stdc++.h&gt;
-#define FQ(i,a,b) for(register int i=a;i&lt;=b;i++)
-#define prf printf
-#define scf scanf
-#define ll long long
-#define IT set&lt;node&gt;::iterator  //important
-using namespace std;
-const int N=1e5+10,M_0=1e9+7;
-ll a[N],seed,n,m,V_max;
-
-ll read()
-{
-	
-	ll x=0,f=1;char ch=getchar();
-	
-	while(ch&lt;'0'||ch&gt;'9'){if(ch=='-')f=-1;ch=getchar();}
-	
-	while(ch&gt;='0'&amp;&amp;ch&lt;='9'){x=x*10+ch-'0';ch=getchar();}
-	
-	return x*f;
-	
-}
-
-ll ksm(ll x,ll y,ll M)
-{
-	
-	ll res=1;x%=M;
-	
-	while(y)
-	{
-		
-		if(y&amp;1)res=(res*x)%M;
-		
-		x=(x*x)%M;
-		
-		y&gt;&gt;=1;
-		
-	}
-	
-	return res;
-	
-}
-
-struct node
-{
-	
-	int l,r;
-	
-	mutable ll v;
-	
-	node(int L,int R=-1,ll V=0):l(L),r(R),v(V) {}
-	
-	bool operator&lt;(const node &amp;o) const{return l&lt;o.l;}
-	
-};
-
-set&lt;node&gt; s;
-
-IT Split(int pos)//分离 
-{
-	
-	IT pl=s.lower_bound(node(pos));
-	
-	if(pl!=s.end()&amp;&amp;pl-&gt;l==pos)return pl;
-	
-	pl--;
-	
-	int L=pl-&gt;l,R=pl-&gt;r;ll V=pl-&gt;v;
-	
-	s.erase(pl);
-	
-	s.insert(node(L,pos-1,V));
-	
-	return s.insert(node(pos,R,V)).first;
-	
-}
-
-void Ass(int L,int R,ll x=0)//推平 
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	s.erase(p_l,p_r);
-	
-	s.insert(node(L,R,x));
-	
-}
-
-ll sum(int L,int R,int x,int M)//区间k次和 
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	ll res=0;
-	
-	for (;p_l!=p_r;p_l++)
-	
-		res=(res+(ll)(p_l-&gt;r-p_l-&gt;l+1)*ksm(p_l-&gt;v,x,M))%M;
-		
-	return (res+M)%M;
-	
-}
-
-void add(int L,int R,ll x=1)//区间加法
-{
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	for (;p_l!=p_r;p_l++)
-	
-		p_l-&gt;v+=x;	
-	
-} 
-
-ll Rank_k(int L,int R,int k)
-{
-	
-	vector&lt;pair&lt;ll,int&gt; &gt; pl;
-	
-	IT p_r=Split(R+1),p_l=Split(L);
-	
-	for (;p_l!=p_r;p_l++)
-	
-		pl.push_back(pair&lt;ll,int&gt;(p_l-&gt;v,p_l-&gt;r-p_l-&gt;l+1));
-		
-	sort(pl.begin(),pl.end());
-	
-	for(vector&lt;pair&lt;ll,int&gt; &gt;::iterator it=pl.begin();it!=pl.end();it++)
-	{
-		
-		k-=it-&gt;second;
-		
-		if(k&lt;=0)return it-&gt;first;
-		
-	}
-	
-	return -1;
-	
-}
-
-ll rnd()
-{
-	
-	ll ret=seed;
-	
-	seed=(seed*7+13)%M_0;
-	
-	return ret;
-	
-}
-
-int main()
-{
-	
-	n=read(),m=read(),seed=read(),V_max=read();
-	
-	for(int i=1;i&lt;=n;i++)
-	{ 
-	
-		a[i]=(rnd()%V_max)+1;
-	
-		s.insert(node(i,i,a[i]));
-	
-	} 
-		
-	for(int i=1,x,y;i&lt;=m;i++)
-	{
-		
-		int opt=int(rnd()%4)+1;
-		
-		int l=int(rnd()%n)+1,r=int(rnd()%n)+1;
-		
-		if(l&gt;r)swap(l,r);
-		
-		if(opt==3)x=int(rnd()%(r-l+1))+1;
-		
-		else x=int(rnd()%V_max)+1;
-		
-		if(opt==4)y=int(rnd()%V_max)+1;
-		
-		if(opt==1)add(l,r,(ll)x);
-		
-		if(opt==2)Ass(l,r,(ll)x);
-		
-		if(opt==3)printf(&quot;%lld\n&quot;,Rank_k(l,r,x));
-		
-		if(opt==4)printf(&quot;%lld\n&quot;,sum(l,r,x,y));
-		
-	}
-	
-	return 0;	
-	
-} 
-//**月雩·薇嫭**
 </code></pre>
 ]]></content>
     </entry>
