@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-19T08:49:04.241Z</updated>
+    <updated>2020-11-22T13:38:52.278Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
@@ -1128,6 +1128,72 @@
     我的失误：无<br></br>
     所花时间：略</td>
   <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>第二题就式子都推出来了，但是有个小细节错了，再加上时间分配不是特别合理
+  </tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-20">11月20日</a></td>
+  <td class="xl1512323" align="right">175</td>
+  <td class="xl1512323" align="right">35</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：快速筛素数+Dp求贡献<br></br>
+    正解：同上<br></br>
+    我的失误：未删freopen()<br></br>
+    所花时间：2.5h</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：爆爆力<br></br>
+    正解：超级·转换术！(转为树)<br></br>
+    我的失误：无<br></br>
+    所花时间：0.75h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力+队列优化<br></br>
+    正解：链表<br></br>
+    我的失误：没有取模<br></br>
+    所花时间：0.5h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：没想(看不懂题)<br></br>
+    正解：状压Dp(但是到底怎么做啊)<br></br>
+    我的失误：无<br></br>
+    所花时间：略</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>挂分最惨就是我没错了，140pts啊！！
+  </tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-21">11月21日</a></td>
+  <td class="xl1512323" align="right">150</td>
+  <td class="xl1512323" align="right">50</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：先Dfs两次求出每一个节点所有子树大小，在枚举树根，求最小值<br></br>
+    正解：Dp<br></br>
+    我的失误：未清零<br></br>
+    所花时间：1.5h</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：特殊点<br></br>
+    正解：差分+贪心匹配<br></br>
+    我的失误：思路错误<br></br>
+    所花时间：1.75h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：考虑最后一个简单环，用容斥<br></br>
+    我的失误：无<br></br>
+    所花时间：0.5h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：没时间了<br></br>
+    正解：背包Dp+前缀/后缀背包合并+单调队列优化<br></br>
+    我的失误：无<br></br>
+    所花时间：略</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>真的再也不想挂分了啊啊啊，害。
+  </tr>
+ <tr height="114" style="height:85.5pt">
+  <td height="114" class="xl6512323" style="height:85.5pt"><a href="https://pray-yueyu.github.io/post/noip-2020-qian-ce-shi-ti-mu-yin-cang-pian-mu/#11-22">11月22日</a></td>
+  <td class="xl1512323" align="right">60</td>
+  <td class="xl1512323" align="right">15</td>
+  <td class="xl6412323" width="216" style="width:162pt">我的想法：暴力<br></br>
+    正解：暴力（<br></br>
+    我的失误：超小细节（（<br></br>
+    所花时间：1h-10min</td>
+  <td class="xl6412323" width="215" style="width:161pt">我的想法：未想<br></br>
+    正解：简单树形DP？？<br></br>
+    我的失误：没有做<br></br>
+    所花时间：10min</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
+    正解：笛卡尔树+DP<br></br>
+    我的失误：思路错误<br></br>
+    所花时间：2.5h</td>
+  <td class="xl6412323" width="226" style="width:170pt">我的想法：无此题<br></br>
+    正解：无此题<br></br>
+    我的失误：无此题<br></br>
+    所花时间：无此题</td>
+  <td class="xl1512323"><span style="mso-spacerun:yes">&nbsp;</span>怀旧版NOIP，T1就挂了，心态爆炸，暴力分没拿（
   </td>
 </tr>
  <!--[if supportMisalignedColumns]-->
