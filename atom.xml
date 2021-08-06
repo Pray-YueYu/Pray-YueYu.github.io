@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pray-yueyu.github.io</id>
     <title>月雩の小窝</title>
-    <updated>2020-11-12T10:55:18.847Z</updated>
+    <updated>2021-08-06T09:26:05.898Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://pray-yueyu.github.io"/>
     <link rel="self" href="https://pray-yueyu.github.io/atom.xml"/>
     <subtitle>月雩梦，薇嫮影</subtitle>
     <logo>https://pray-yueyu.github.io/images/avatar.png</logo>
     <icon>https://pray-yueyu.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, 月雩の小窝</rights>
+    <rights>All rights reserved 2021, 月雩の小窝</rights>
     <entry>
         <title type="html"><![CDATA[蓝书·目录]]></title>
         <id>https://pray-yueyu.github.io/post/lan-shu-mu-lu/</id>
@@ -182,8 +182,8 @@
     我的失误：细节出锅&amp;没想到最优解<br></br>
     所花时间：2.9h</td>
   <td class="xl6412323" width="226" style="width:170pt">我的想法：拿部分分<br></br>
-    正解：建图+最短路<br>
-    我的失误：时间太少，不够想<br>
+    正解：建图+最短路<br></br>
+    我的失误：时间太少，不够想<br></br>
     所花时间：0.6h</td>
   <td class="xl6412323" width="226" style="width:170pt">我的想法：暴力<br></br>
     正解：我要爆炸了<br></br>
